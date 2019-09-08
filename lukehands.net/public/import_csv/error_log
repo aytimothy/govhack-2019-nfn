@@ -1,0 +1,8 @@
+[18-Nov-2018 22:45:05 Australia/Sydney] PHP Warning:  scandir() expects at least 1 parameter, 0 given in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 3
+[18-Nov-2018 22:48:56 Australia/Sydney] PHP Parse error:  syntax error, unexpected end of file in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 7
+[18-Nov-2018 22:50:59 Australia/Sydney] PHP Warning:  scandir(..\/home/lukehands/research.lukehands.net/public/import_csv): failed to open dir: No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
+[18-Nov-2018 22:50:59 Australia/Sydney] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
+[18-Nov-2018 22:52:12 Australia/Sydney] PHP Warning:  scandir(..\/home/lukehands/research.lukehands.net/public/import_csv): failed to open dir: No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
+[18-Nov-2018 22:52:12 Australia/Sydney] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
+[18-Nov-2018 22:52:17 Australia/Sydney] PHP Warning:  scandir(\/home/lukehands/research.lukehands.net/public/import_csv): failed to open dir: No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
+[18-Nov-2018 22:52:17 Australia/Sydney] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/lukehands/research.lukehands.net/public/import_csv/index.php on line 5
