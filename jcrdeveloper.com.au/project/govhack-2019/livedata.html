@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NFN Live View (Hourly)</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt6rF3bJHv5HXwrDYiT3P2pB1ozgNXwYs&callback=initMap" type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        var imgurl = 'http://jcrdeveloper.net.au/govhack2019/images/';
+        google.charts.load('current', { 'packages': ['map'] });
+        google.charts.setOnLoadCallback(drawMap);
+
+        function drawMap() {
+
+            var display = "<p><b>Temperature: </b>" + "23.3&deg;C" + " <br><b>Humidity: </b>" + "25.6" + "<br><b>Sound: </b>" + "False" + " <br><b>Light: </b>" + "260.55 Lux" + "</p>";
+            var data = google.visualization.arrayToDataTable([
+                ['Lat', 'Long', 'Name', 'Marker'],
+                [-27.4328, 153.0097, "<p><b>Newcastle</b></p>" + display, 'blue'],
+                [-27.9899, 152.9969, "<p><b>Beaudesert</b></p>" + display, 'orange'],
+                [-27.9712, 153.4036, "<p><b>Southport</b></p>" + display, 'blue']
+            ]);
+
+            var options = {
+                showTooltip: true,
+                showInfoWindow: true,
+                icons: {
+                    red: {
+                        normal: imgurl + 'red.png',
+                        selected: imgurl + 'red.png'
+                    },
+                    blue: {
+                        normal: imgurl + 'blue.png',
+                        selected: imgurl + 'blue.png'
+                    },
+                    orange: {
+                        normal: imgurl + 'orange.png',
+                        selected: imgurl + 'orange.png'
+                    },
+                    green: {
+                        normal: imgurl + 'green.png',
+                        selected: imgurl + 'green.png'
+                    }
+                }
+            };
+
+            var map = new google.visualization.Map(document.getElementById('chart_div'));
+
+            map.draw(data, options);
+        }
+    </script>
+</head>
+<body>
+    <div id="chart_div"></div>
+</body>
+</html>
+<!-- SELECT temperature, humidity, sound, light FROM readings ORDER BY time DESC LIMIT 1 -->

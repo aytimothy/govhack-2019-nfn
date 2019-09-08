@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="35" Full="1.12.35"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2019-09-07T13:29:42Z</dc:date>
+      <meta:creation-date>2019-09-07T13:23:40Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Sheet1</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="1299" Height="508"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Sheet1</gnm:Name>
+      <gnm:MaxCol>4</gnm:MaxCol>
+      <gnm:MaxRow>296</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Sheet1&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="4" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="0" endCol="255" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="146.2" HardSize="1"/>
+        <gnm:ColInfo No="1" Unit="161.2" HardSize="1"/>
+        <gnm:ColInfo No="2" Unit="81.75" HardSize="1"/>
+        <gnm:ColInfo No="3" Unit="69.75" HardSize="1"/>
+        <gnm:ColInfo No="4" Unit="93" HardSize="1"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.75"/>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">NAME</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">LGA</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">TLAT</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">TLONG</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">ACTIVE</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">Airlie Beach</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">Whitsunday Regional</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="40">-20.276432</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="40">148.698768</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">Alpha</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">Barcaldine Regional</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40">-23.6510791</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="40">146.6316166</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">Aramac</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">Barcaldine Regional</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">-22.9680508</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="40">145.2431186</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">Armstrong Beach</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40">-21.448799999999999</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="40">149.2824</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">Ayr</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">Burdekin Shire Counc</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="40">-19.5608504</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="40">147.39270719999999</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40">23</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">Barcaldine</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">Barcaldine Regional</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="40">-23.551891000000001</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="40">145.295627</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="60">Bargara</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="40">-24.821733999999999</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="40">152.438838</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">Bedourie</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">Diamantina Shire Cou</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="40">-24.359725999999998</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="40">139.46959000000001</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="60">Biggenden</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="40">-25.511392300000001</gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="40">152.0436138</gnm:Cell>
+        <gnm:Cell Row="9" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="60">Birdsville</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">Diamantina Shire Cou</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="40">-25.898385999999999</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="40">139.35158699999999</gnm:Cell>
+        <gnm:Cell Row="10" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="60">Blackall</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">Blackall-Tambo Regio</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="40">-24.424779900000001</gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ValueType="40">145.47726929999999</gnm:Cell>
+        <gnm:Cell Row="11" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="60">Blackwater</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="40">-23.584156400000001</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ValueType="40">148.8845388</gnm:Cell>
+        <gnm:Cell Row="12" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="60">Bluewater</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="40">-19.175599999999999</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ValueType="40">146.5497</gnm:Cell>
+        <gnm:Cell Row="13" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="60">Boulia</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="60">Boulia Shire Council</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="40">-22.908129899999999</gnm:Cell>
+        <gnm:Cell Row="14" Col="3" ValueType="40">139.91198460000001</gnm:Cell>
+        <gnm:Cell Row="14" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="60">Bowen</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="60">Whitsunday Regional</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="40">-20.012912</gnm:Cell>
+        <gnm:Cell Row="15" Col="3" ValueType="40">148.24625599999999</gnm:Cell>
+        <gnm:Cell Row="15" Col="4" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="60">Bundaberg</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="40">-24.891789899999999</gnm:Cell>
+        <gnm:Cell Row="16" Col="3" ValueType="40">152.31120089999999</gnm:Cell>
+        <gnm:Cell Row="16" Col="4" ValueType="40">50</gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="60">Burketown</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="60">Burke Shire Council</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="40">-17.735536</gnm:Cell>
+        <gnm:Cell Row="17" Col="3" ValueType="40">139.54833500000001</gnm:Cell>
+        <gnm:Cell Row="17" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="60">Burnett Heads</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="18" Col="2" ValueType="40">-24.764052</gnm:Cell>
+        <gnm:Cell Row="18" Col="3" ValueType="40">152.40994000000001</gnm:Cell>
+        <gnm:Cell Row="18" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="19" Col="0" ValueType="60">Calen</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="19" Col="2" ValueType="40">-20.898900000000001</gnm:Cell>
+        <gnm:Cell Row="19" Col="3" ValueType="40">148.77583999999999</gnm:Cell>
+        <gnm:Cell Row="19" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="20" Col="0" ValueType="60">Camooweal</gnm:Cell>
+        <gnm:Cell Row="20" Col="1" ValueType="60">Mount Isa City Counc</gnm:Cell>
+        <gnm:Cell Row="20" Col="2" ValueType="40">-19.921818900000002</gnm:Cell>
+        <gnm:Cell Row="20" Col="3" ValueType="40">138.12135570000001</gnm:Cell>
+        <gnm:Cell Row="20" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="21" Col="0" ValueType="60">Campwin Beach</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="21" Col="2" ValueType="40">-21.38382</gnm:Cell>
+        <gnm:Cell Row="21" Col="3" ValueType="40">149.30634000000001</gnm:Cell>
+        <gnm:Cell Row="21" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="60">Capella</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="40">-23.086993799999998</gnm:Cell>
+        <gnm:Cell Row="22" Col="3" ValueType="40">148.0202888</gnm:Cell>
+        <gnm:Cell Row="22" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ValueType="60">Carmila</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ValueType="40">-21.908957999999998</gnm:Cell>
+        <gnm:Cell Row="23" Col="3" ValueType="40">149.41079160000001</gnm:Cell>
+        <gnm:Cell Row="23" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="24" Col="0" ValueType="60">Charters Towers</gnm:Cell>
+        <gnm:Cell Row="24" Col="1" ValueType="60">Charters Towers Regi</gnm:Cell>
+        <gnm:Cell Row="24" Col="2" ValueType="40">-20.079897299999999</gnm:Cell>
+        <gnm:Cell Row="24" Col="3" ValueType="40">146.26079590000001</gnm:Cell>
+        <gnm:Cell Row="24" Col="4" ValueType="40">38</gnm:Cell>
+        <gnm:Cell Row="25" Col="0" ValueType="60">Clare</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ValueType="60">Burdekin Shire Counc</gnm:Cell>
+        <gnm:Cell Row="25" Col="2" ValueType="40">-19.784367</gnm:Cell>
+        <gnm:Cell Row="25" Col="3" ValueType="40">147.22842700000001</gnm:Cell>
+        <gnm:Cell Row="25" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="26" Col="0" ValueType="60">Clermont</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="26" Col="2" ValueType="40">-22.82658</gnm:Cell>
+        <gnm:Cell Row="26" Col="3" ValueType="40">147.63435999999999</gnm:Cell>
+        <gnm:Cell Row="26" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="27" Col="0" ValueType="60">Cloncurry</gnm:Cell>
+        <gnm:Cell Row="27" Col="1" ValueType="60">Cloncurry Shire Coun</gnm:Cell>
+        <gnm:Cell Row="27" Col="2" ValueType="40">-20.699714199999999</gnm:Cell>
+        <gnm:Cell Row="27" Col="3" ValueType="40">140.50228179999999</gnm:Cell>
+        <gnm:Cell Row="27" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="28" Col="0" ValueType="60">Coolum</gnm:Cell>
+        <gnm:Cell Row="28" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="28" Col="2" ValueType="40">-26.528853600000001</gnm:Cell>
+        <gnm:Cell Row="28" Col="3" ValueType="40">153.08713449999999</gnm:Cell>
+        <gnm:Cell Row="28" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="29" Col="0" ValueType="60">Dajarra</gnm:Cell>
+        <gnm:Cell Row="29" Col="1" ValueType="60">Cloncurry Shire Coun</gnm:Cell>
+        <gnm:Cell Row="29" Col="2" ValueType="40">-21.694747</gnm:Cell>
+        <gnm:Cell Row="29" Col="3" ValueType="40">139.51624899999999</gnm:Cell>
+        <gnm:Cell Row="29" Col="4" ValueType="40">42</gnm:Cell>
+        <gnm:Cell Row="30" Col="0" ValueType="60">Doomadgee</gnm:Cell>
+        <gnm:Cell Row="30" Col="1" ValueType="60">Doomadgee Aboriginal</gnm:Cell>
+        <gnm:Cell Row="30" Col="2" ValueType="40">-17.941677500000001</gnm:Cell>
+        <gnm:Cell Row="30" Col="3" ValueType="40">138.826584</gnm:Cell>
+        <gnm:Cell Row="30" Col="4" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="31" Col="0" ValueType="60">Duaringa</gnm:Cell>
+        <gnm:Cell Row="31" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="31" Col="2" ValueType="40">-23.718718299999999</gnm:Cell>
+        <gnm:Cell Row="31" Col="3" ValueType="40">149.66878500000001</gnm:Cell>
+        <gnm:Cell Row="31" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="32" Col="0" ValueType="60">Duchess</gnm:Cell>
+        <gnm:Cell Row="32" Col="1" ValueType="60">Cloncurry Shire Coun</gnm:Cell>
+        <gnm:Cell Row="32" Col="2" ValueType="40">-21.356266999999999</gnm:Cell>
+        <gnm:Cell Row="32" Col="3" ValueType="40">139.86233200000001</gnm:Cell>
+        <gnm:Cell Row="32" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="33" Col="0" ValueType="60">Dysart</gnm:Cell>
+        <gnm:Cell Row="33" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="33" Col="2" ValueType="40">-22.590138</gnm:Cell>
+        <gnm:Cell Row="33" Col="3" ValueType="40">148.34103099999999</gnm:Cell>
+        <gnm:Cell Row="33" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="34" Col="0" ValueType="60">Elliott Heads</gnm:Cell>
+        <gnm:Cell Row="34" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="34" Col="2" ValueType="40">-24.908940999999999</gnm:Cell>
+        <gnm:Cell Row="34" Col="3" ValueType="40">152.488789</gnm:Cell>
+        <gnm:Cell Row="34" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="35" Col="0" ValueType="60">Emerald</gnm:Cell>
+        <gnm:Cell Row="35" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="35" Col="2" ValueType="40">-23.474699999999999</gnm:Cell>
+        <gnm:Cell Row="35" Col="3" ValueType="40">148.15029999999999</gnm:Cell>
+        <gnm:Cell Row="35" Col="4" ValueType="40">22</gnm:Cell>
+        <gnm:Cell Row="36" Col="0" ValueType="60">Gemfields</gnm:Cell>
+        <gnm:Cell Row="36" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="36" Col="2" ValueType="40">-23.465599999999998</gnm:Cell>
+        <gnm:Cell Row="36" Col="3" ValueType="40">147.71969999999999</gnm:Cell>
+        <gnm:Cell Row="36" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="37" Col="0" ValueType="60">Giru</gnm:Cell>
+        <gnm:Cell Row="37" Col="1" ValueType="60">Burdekin Shire Counc</gnm:Cell>
+        <gnm:Cell Row="37" Col="2" ValueType="40">-19.512205399999999</gnm:Cell>
+        <gnm:Cell Row="37" Col="3" ValueType="40">147.10981229999999</gnm:Cell>
+        <gnm:Cell Row="37" Col="4" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="38" Col="0" ValueType="60">Gympie</gnm:Cell>
+        <gnm:Cell Row="38" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="38" Col="2" ValueType="40">-26.1863937</gnm:Cell>
+        <gnm:Cell Row="38" Col="3" ValueType="40">152.65832219999999</gnm:Cell>
+        <gnm:Cell Row="38" Col="4" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="39" Col="0" ValueType="60">Glenden</gnm:Cell>
+        <gnm:Cell Row="39" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="39" Col="2" ValueType="40">-21.359210000000001</gnm:Cell>
+        <gnm:Cell Row="39" Col="3" ValueType="40">148.10998000000001</gnm:Cell>
+        <gnm:Cell Row="39" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="40" Col="0" ValueType="60">Gloucester Island</gnm:Cell>
+        <gnm:Cell Row="40" Col="1" ValueType="60">Whitsunday Regional</gnm:Cell>
+        <gnm:Cell Row="40" Col="2" ValueType="40">-20.092676999999998</gnm:Cell>
+        <gnm:Cell Row="40" Col="3" ValueType="40">148.496881</gnm:Cell>
+        <gnm:Cell Row="40" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="41" Col="0" ValueType="60">Goomeri</gnm:Cell>
+        <gnm:Cell Row="41" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="41" Col="2" ValueType="40">-26.181782999999999</gnm:Cell>
+        <gnm:Cell Row="41" Col="3" ValueType="40">152.0674017</gnm:Cell>
+        <gnm:Cell Row="41" Col="4" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="42" Col="0" ValueType="60">Gracemere</gnm:Cell>
+        <gnm:Cell Row="42" Col="1" ValueType="60">Rockhampton Regional</gnm:Cell>
+        <gnm:Cell Row="42" Col="2" ValueType="40">-23.437100000000001</gnm:Cell>
+        <gnm:Cell Row="42" Col="3" ValueType="40">150.45419999999999</gnm:Cell>
+        <gnm:Cell Row="42" Col="4" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="43" Col="0" ValueType="60">Grasstree Beach</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="43" Col="2" ValueType="40">-21.360800000000001</gnm:Cell>
+        <gnm:Cell Row="43" Col="3" ValueType="40">149.30619999999999</gnm:Cell>
+        <gnm:Cell Row="43" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="44" Col="0" ValueType="60">Green Hill</gnm:Cell>
+        <gnm:Cell Row="44" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="44" Col="2" ValueType="40">-21.68158</gnm:Cell>
+        <gnm:Cell Row="44" Col="3" ValueType="40">149.44965999999999</gnm:Cell>
+        <gnm:Cell Row="44" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="45" Col="0" ValueType="60">Greenvale</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ValueType="60">Charters Towers Regi</gnm:Cell>
+        <gnm:Cell Row="45" Col="2" ValueType="40">-19.000900000000001</gnm:Cell>
+        <gnm:Cell Row="45" Col="3" ValueType="40">144.9828</gnm:Cell>
+        <gnm:Cell Row="45" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="46" Col="0" ValueType="60">Gregory/Lawn Hills</gnm:Cell>
+        <gnm:Cell Row="46" Col="1" ValueType="60">Burke Shire Council</gnm:Cell>
+        <gnm:Cell Row="46" Col="2" ValueType="40">-18.648099999999999</gnm:Cell>
+        <gnm:Cell Row="46" Col="3" ValueType="40">139.25640000000001</gnm:Cell>
+        <gnm:Cell Row="46" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="47" Col="0" ValueType="60">Halifax</gnm:Cell>
+        <gnm:Cell Row="47" Col="1" ValueType="60">Hinchinbrook Shire C</gnm:Cell>
+        <gnm:Cell Row="47" Col="2" ValueType="40">-18.584393200000001</gnm:Cell>
+        <gnm:Cell Row="47" Col="3" ValueType="40">146.2872145</gnm:Cell>
+        <gnm:Cell Row="47" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="48" Col="0" ValueType="60">Home Hill</gnm:Cell>
+        <gnm:Cell Row="48" Col="1" ValueType="60">Burdekin Shire Counc</gnm:Cell>
+        <gnm:Cell Row="48" Col="2" ValueType="40">-19.660899300000001</gnm:Cell>
+        <gnm:Cell Row="48" Col="3" ValueType="40">147.41655600000001</gnm:Cell>
+        <gnm:Cell Row="48" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="49" Col="0" ValueType="60">Hughenden</gnm:Cell>
+        <gnm:Cell Row="49" Col="1" ValueType="60">Flinders Shire Counc</gnm:Cell>
+        <gnm:Cell Row="49" Col="2" ValueType="40">-20.8504</gnm:Cell>
+        <gnm:Cell Row="49" Col="3" ValueType="40">144.1935</gnm:Cell>
+        <gnm:Cell Row="49" Col="4" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="50" Col="0" ValueType="60">Ilfracombe</gnm:Cell>
+        <gnm:Cell Row="50" Col="1" ValueType="60">Longreach Regional C</gnm:Cell>
+        <gnm:Cell Row="50" Col="2" ValueType="40">-23.488309099999999</gnm:Cell>
+        <gnm:Cell Row="50" Col="3" ValueType="40">144.50910379999999</gnm:Cell>
+        <gnm:Cell Row="50" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="51" Col="0" ValueType="60">Imbil</gnm:Cell>
+        <gnm:Cell Row="51" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="51" Col="2" ValueType="40">-26.459512</gnm:Cell>
+        <gnm:Cell Row="51" Col="3" ValueType="40">152.67118199999999</gnm:Cell>
+        <gnm:Cell Row="51" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="52" Col="0" ValueType="60">Ingham</gnm:Cell>
+        <gnm:Cell Row="52" Col="1" ValueType="60">Hinchinbrook Shire C</gnm:Cell>
+        <gnm:Cell Row="52" Col="2" ValueType="40">-18.655722399999998</gnm:Cell>
+        <gnm:Cell Row="52" Col="3" ValueType="40">146.16845169999999</gnm:Cell>
+        <gnm:Cell Row="52" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="53" Col="0" ValueType="60">Innes Park</gnm:Cell>
+        <gnm:Cell Row="53" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="53" Col="2" ValueType="40">-24.8766891</gnm:Cell>
+        <gnm:Cell Row="53" Col="3" ValueType="40">152.36642900000001</gnm:Cell>
+        <gnm:Cell Row="53" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="54" Col="0" ValueType="60">Isisford</gnm:Cell>
+        <gnm:Cell Row="54" Col="1" ValueType="60">Longreach Regional C</gnm:Cell>
+        <gnm:Cell Row="54" Col="2" ValueType="40">-24.259440000000001</gnm:Cell>
+        <gnm:Cell Row="54" Col="3" ValueType="40">144.44056</gnm:Cell>
+        <gnm:Cell Row="54" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="55" Col="0" ValueType="60">Jericho</gnm:Cell>
+        <gnm:Cell Row="55" Col="1" ValueType="60">Barcaldine Regional</gnm:Cell>
+        <gnm:Cell Row="55" Col="2" ValueType="40">-23.6036608</gnm:Cell>
+        <gnm:Cell Row="55" Col="3" ValueType="40">146.12726219999999</gnm:Cell>
+        <gnm:Cell Row="55" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="56" Col="0" ValueType="60">Julia Creek</gnm:Cell>
+        <gnm:Cell Row="56" Col="1" ValueType="60">McKinlay Shire Counc</gnm:Cell>
+        <gnm:Cell Row="56" Col="2" ValueType="40">-20.657201199999999</gnm:Cell>
+        <gnm:Cell Row="56" Col="3" ValueType="40">141.74282650000001</gnm:Cell>
+        <gnm:Cell Row="56" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="57" Col="0" ValueType="60">Jundah</gnm:Cell>
+        <gnm:Cell Row="57" Col="1" ValueType="60">Barcoo Shire Council</gnm:Cell>
+        <gnm:Cell Row="57" Col="2" ValueType="40">-24.833029</gnm:Cell>
+        <gnm:Cell Row="57" Col="3" ValueType="40">143.05938</gnm:Cell>
+        <gnm:Cell Row="57" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="58" Col="0" ValueType="60">Kajabbi</gnm:Cell>
+        <gnm:Cell Row="58" Col="1" ValueType="60">Cloncurry Shire Coun</gnm:Cell>
+        <gnm:Cell Row="58" Col="2" ValueType="40">-20.033403</gnm:Cell>
+        <gnm:Cell Row="58" Col="3" ValueType="40">140.04089400000001</gnm:Cell>
+        <gnm:Cell Row="58" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="59" Col="0" ValueType="60">Karumba</gnm:Cell>
+        <gnm:Cell Row="59" Col="1" ValueType="60">Carpentaria Shire Co</gnm:Cell>
+        <gnm:Cell Row="59" Col="2" ValueType="40">-17.4986</gnm:Cell>
+        <gnm:Cell Row="59" Col="3" ValueType="40">140.82740000000001</gnm:Cell>
+        <gnm:Cell Row="59" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="60" Col="0" ValueType="60">Kenilworth</gnm:Cell>
+        <gnm:Cell Row="60" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="60" Col="2" ValueType="40">-26.596399999999999</gnm:Cell>
+        <gnm:Cell Row="60" Col="3" ValueType="40">152.72489999999999</gnm:Cell>
+        <gnm:Cell Row="60" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="61" Col="0" ValueType="60">Kilkivan</gnm:Cell>
+        <gnm:Cell Row="61" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="61" Col="2" ValueType="40">-26.0859475</gnm:Cell>
+        <gnm:Cell Row="61" Col="3" ValueType="40">152.2413124</gnm:Cell>
+        <gnm:Cell Row="61" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="62" Col="0" ValueType="60">Koumala</gnm:Cell>
+        <gnm:Cell Row="62" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="62" Col="2" ValueType="40">-21.6065</gnm:Cell>
+        <gnm:Cell Row="62" Col="3" ValueType="40">149.2432</gnm:Cell>
+        <gnm:Cell Row="62" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="63" Col="0" ValueType="60">Kynuna</gnm:Cell>
+        <gnm:Cell Row="63" Col="1" ValueType="60">McKinlay Shire Counc</gnm:Cell>
+        <gnm:Cell Row="63" Col="2" ValueType="40">-21.576643000000001</gnm:Cell>
+        <gnm:Cell Row="63" Col="3" ValueType="40">141.92049499999999</gnm:Cell>
+        <gnm:Cell Row="63" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="64" Col="0" ValueType="60">Longreach</gnm:Cell>
+        <gnm:Cell Row="64" Col="1" ValueType="60">Longreach Regional C</gnm:Cell>
+        <gnm:Cell Row="64" Col="2" ValueType="40">-23.445722400000001</gnm:Cell>
+        <gnm:Cell Row="64" Col="3" ValueType="40">144.26159820000001</gnm:Cell>
+        <gnm:Cell Row="64" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="65" Col="0" ValueType="60">Mackay</gnm:Cell>
+        <gnm:Cell Row="65" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="65" Col="2" ValueType="40">-21.148479999999999</gnm:Cell>
+        <gnm:Cell Row="65" Col="3" ValueType="40">149.16046</gnm:Cell>
+        <gnm:Cell Row="65" Col="4" ValueType="40">67</gnm:Cell>
+        <gnm:Cell Row="66" Col="0" ValueType="60">Magnetic Island</gnm:Cell>
+        <gnm:Cell Row="66" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="66" Col="2" ValueType="40">-19.156058699999999</gnm:Cell>
+        <gnm:Cell Row="66" Col="3" ValueType="40">146.8450235</gnm:Cell>
+        <gnm:Cell Row="66" Col="4" ValueType="40">24</gnm:Cell>
+        <gnm:Cell Row="67" Col="0" ValueType="60">Maroochydore</gnm:Cell>
+        <gnm:Cell Row="67" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="67" Col="2" ValueType="40">-26.676866700000001</gnm:Cell>
+        <gnm:Cell Row="67" Col="3" ValueType="40">153.0961131</gnm:Cell>
+        <gnm:Cell Row="67" Col="4" ValueType="40">57</gnm:Cell>
+        <gnm:Cell Row="68" Col="0" ValueType="60">McKinlay</gnm:Cell>
+        <gnm:Cell Row="68" Col="1" ValueType="60">McKinlay Shire Counc</gnm:Cell>
+        <gnm:Cell Row="68" Col="2" ValueType="40">-21.271823999999999</gnm:Cell>
+        <gnm:Cell Row="68" Col="3" ValueType="40">141.2902794</gnm:Cell>
+        <gnm:Cell Row="68" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="69" Col="0" ValueType="60">Middlemount</gnm:Cell>
+        <gnm:Cell Row="69" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="69" Col="2" ValueType="40">-22.808019999999999</gnm:Cell>
+        <gnm:Cell Row="69" Col="3" ValueType="40">148.70176000000001</gnm:Cell>
+        <gnm:Cell Row="69" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="70" Col="0" ValueType="60">Midge Point</gnm:Cell>
+        <gnm:Cell Row="70" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="70" Col="2" ValueType="40">-20.644306700000001</gnm:Cell>
+        <gnm:Cell Row="70" Col="3" ValueType="40">148.7113597</gnm:Cell>
+        <gnm:Cell Row="70" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="71" Col="0" ValueType="60">Mirani</gnm:Cell>
+        <gnm:Cell Row="71" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="71" Col="2" ValueType="40">-21.165990000000001</gnm:Cell>
+        <gnm:Cell Row="71" Col="3" ValueType="40">148.87198000000001</gnm:Cell>
+        <gnm:Cell Row="71" Col="4" ValueType="40">28</gnm:Cell>
+        <gnm:Cell Row="72" Col="0" ValueType="60">Moore Park</gnm:Cell>
+        <gnm:Cell Row="72" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="72" Col="2" ValueType="40">-24.721005999999999</gnm:Cell>
+        <gnm:Cell Row="72" Col="3" ValueType="40">152.274351</gnm:Cell>
+        <gnm:Cell Row="72" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="73" Col="0" ValueType="60">Moranbah</gnm:Cell>
+        <gnm:Cell Row="73" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="73" Col="2" ValueType="40">-22.00037</gnm:Cell>
+        <gnm:Cell Row="73" Col="3" ValueType="40">148.03997200000001</gnm:Cell>
+        <gnm:Cell Row="73" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="74" Col="0" ValueType="60">Mornington Island</gnm:Cell>
+        <gnm:Cell Row="74" Col="1" ValueType="60">Mornington Shire Cou</gnm:Cell>
+        <gnm:Cell Row="74" Col="2" ValueType="40">-16.664096499999999</gnm:Cell>
+        <gnm:Cell Row="74" Col="3" ValueType="40">139.17721320000001</gnm:Cell>
+        <gnm:Cell Row="74" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="75" Col="0" ValueType="60">Mount Isa</gnm:Cell>
+        <gnm:Cell Row="75" Col="1" ValueType="60">Mount Isa City Counc</gnm:Cell>
+        <gnm:Cell Row="75" Col="2" ValueType="40">-20.701345</gnm:Cell>
+        <gnm:Cell Row="75" Col="3" ValueType="40">139.49763379999999</gnm:Cell>
+        <gnm:Cell Row="75" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="76" Col="0" ValueType="60">Mount Morgan</gnm:Cell>
+        <gnm:Cell Row="76" Col="1" ValueType="60">Rockhampton Regional</gnm:Cell>
+        <gnm:Cell Row="76" Col="2" ValueType="40">-23.659604900000001</gnm:Cell>
+        <gnm:Cell Row="76" Col="3" ValueType="40">150.38696680000001</gnm:Cell>
+        <gnm:Cell Row="76" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="77" Col="0" ValueType="60">Mount Spec</gnm:Cell>
+        <gnm:Cell Row="77" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="77" Col="2" ValueType="40">-19.0075</gnm:Cell>
+        <gnm:Cell Row="77" Col="3" ValueType="40">146.20679999999999</gnm:Cell>
+        <gnm:Cell Row="77" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="78" Col="0" ValueType="60">Muttaburra</gnm:Cell>
+        <gnm:Cell Row="78" Col="1" ValueType="60">Barcaldine Regional</gnm:Cell>
+        <gnm:Cell Row="78" Col="2" ValueType="40">-22.593702</gnm:Cell>
+        <gnm:Cell Row="78" Col="3" ValueType="40">144.54793000000001</gnm:Cell>
+        <gnm:Cell Row="78" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="79" Col="0" ValueType="60">Nambour and District</gnm:Cell>
+        <gnm:Cell Row="79" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="79" Col="2" ValueType="40">-26.670584699999999</gnm:Cell>
+        <gnm:Cell Row="79" Col="3" ValueType="40">152.97429489999999</gnm:Cell>
+        <gnm:Cell Row="79" Col="4" ValueType="40">41</gnm:Cell>
+        <gnm:Cell Row="80" Col="0" ValueType="60">Nebo</gnm:Cell>
+        <gnm:Cell Row="80" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="80" Col="2" ValueType="40">-21.688400000000001</gnm:Cell>
+        <gnm:Cell Row="80" Col="3" ValueType="40">148.69237000000001</gnm:Cell>
+        <gnm:Cell Row="80" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="81" Col="0" ValueType="60">Normanton</gnm:Cell>
+        <gnm:Cell Row="81" Col="1" ValueType="60">Carpentaria Shire Co</gnm:Cell>
+        <gnm:Cell Row="81" Col="2" ValueType="40">-17.673100000000002</gnm:Cell>
+        <gnm:Cell Row="81" Col="3" ValueType="40">141.07919999999999</gnm:Cell>
+        <gnm:Cell Row="81" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="82" Col="0" ValueType="60">Palm Island</gnm:Cell>
+        <gnm:Cell Row="82" Col="1" ValueType="60">Palm Island Aborigin</gnm:Cell>
+        <gnm:Cell Row="82" Col="2" ValueType="40">-18.721</gnm:Cell>
+        <gnm:Cell Row="82" Col="3" ValueType="40">146.58840000000001</gnm:Cell>
+        <gnm:Cell Row="82" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="83" Col="0" ValueType="60">Pentland</gnm:Cell>
+        <gnm:Cell Row="83" Col="1" ValueType="60">Charters Towers Regi</gnm:Cell>
+        <gnm:Cell Row="83" Col="2" ValueType="40">-20.524449000000001</gnm:Cell>
+        <gnm:Cell Row="83" Col="3" ValueType="40">145.394732</gnm:Cell>
+        <gnm:Cell Row="83" Col="4" ValueType="40">22</gnm:Cell>
+        <gnm:Cell Row="84" Col="0" ValueType="60">Proserpine</gnm:Cell>
+        <gnm:Cell Row="84" Col="1" ValueType="60">Whitsunday Regional</gnm:Cell>
+        <gnm:Cell Row="84" Col="2" ValueType="40">-20.406146</gnm:Cell>
+        <gnm:Cell Row="84" Col="3" ValueType="40">148.57850300000001</gnm:Cell>
+        <gnm:Cell Row="84" Col="4" ValueType="40">35</gnm:Cell>
+        <gnm:Cell Row="85" Col="0" ValueType="60">Rainbow Beach</gnm:Cell>
+        <gnm:Cell Row="85" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="85" Col="2" ValueType="40">-25.9009866</gnm:Cell>
+        <gnm:Cell Row="85" Col="3" ValueType="40">153.08903799999999</gnm:Cell>
+        <gnm:Cell Row="85" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="86" Col="0" ValueType="60">Ravenswood</gnm:Cell>
+        <gnm:Cell Row="86" Col="1" ValueType="60">Charters Towers Regi</gnm:Cell>
+        <gnm:Cell Row="86" Col="2" ValueType="40">-20.090491499999999</gnm:Cell>
+        <gnm:Cell Row="86" Col="3" ValueType="40">146.88905589999999</gnm:Cell>
+        <gnm:Cell Row="86" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="87" Col="0" ValueType="60">Richmond</gnm:Cell>
+        <gnm:Cell Row="87" Col="1" ValueType="60">Richmond Shire Counc</gnm:Cell>
+        <gnm:Cell Row="87" Col="2" ValueType="40">-20.7257</gnm:Cell>
+        <gnm:Cell Row="87" Col="3" ValueType="40">143.1353</gnm:Cell>
+        <gnm:Cell Row="87" Col="4" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="88" Col="0" ValueType="60">Rita Island</gnm:Cell>
+        <gnm:Cell Row="88" Col="1" ValueType="60">Burdekin Shire Counc</gnm:Cell>
+        <gnm:Cell Row="88" Col="2" ValueType="40">-19.628367000000001</gnm:Cell>
+        <gnm:Cell Row="88" Col="3" ValueType="40">147.502343</gnm:Cell>
+        <gnm:Cell Row="88" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="89" Col="0" ValueType="60">Rockhampton</gnm:Cell>
+        <gnm:Cell Row="89" Col="1" ValueType="60">Rockhampton Regional</gnm:Cell>
+        <gnm:Cell Row="89" Col="2" ValueType="40">-23.366399999999999</gnm:Cell>
+        <gnm:Cell Row="89" Col="3" ValueType="40">150.52619999999999</gnm:Cell>
+        <gnm:Cell Row="89" Col="4" ValueType="40">66</gnm:Cell>
+        <gnm:Cell Row="90" Col="0" ValueType="60">Rollingstone</gnm:Cell>
+        <gnm:Cell Row="90" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="90" Col="2" ValueType="40">-19.044899999999998</gnm:Cell>
+        <gnm:Cell Row="90" Col="3" ValueType="40">146.40889999999999</gnm:Cell>
+        <gnm:Cell Row="90" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="91" Col="0" ValueType="60">Sarina</gnm:Cell>
+        <gnm:Cell Row="91" Col="1" ValueType="60">Mackay Regional Coun</gnm:Cell>
+        <gnm:Cell Row="91" Col="2" ValueType="40">-21.418199999999999</gnm:Cell>
+        <gnm:Cell Row="91" Col="3" ValueType="40">149.21299999999999</gnm:Cell>
+        <gnm:Cell Row="91" Col="4" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="92" Col="0" ValueType="60">South Kolan</gnm:Cell>
+        <gnm:Cell Row="92" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="92" Col="2" ValueType="40">-24.926959</gnm:Cell>
+        <gnm:Cell Row="92" Col="3" ValueType="40">152.18556000000001</gnm:Cell>
+        <gnm:Cell Row="92" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="93" Col="0" ValueType="60">Springsure</gnm:Cell>
+        <gnm:Cell Row="93" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="93" Col="2" ValueType="40">-24.1174</gnm:Cell>
+        <gnm:Cell Row="93" Col="3" ValueType="40">148.09039999999999</gnm:Cell>
+        <gnm:Cell Row="93" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="94" Col="0" ValueType="60">St Lawrence</gnm:Cell>
+        <gnm:Cell Row="94" Col="1" ValueType="60">Isaac Regional Counc</gnm:Cell>
+        <gnm:Cell Row="94" Col="2" ValueType="40">-22.3472717</gnm:Cell>
+        <gnm:Cell Row="94" Col="3" ValueType="40">149.5366272</gnm:Cell>
+        <gnm:Cell Row="94" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="95" Col="0" ValueType="60">Sweers Island</gnm:Cell>
+        <gnm:Cell Row="95" Col="1" ValueType="60">Mornington Shire Cou</gnm:Cell>
+        <gnm:Cell Row="95" Col="2" ValueType="40">-17.114821800000001</gnm:Cell>
+        <gnm:Cell Row="95" Col="3" ValueType="40">139.59952139999999</gnm:Cell>
+        <gnm:Cell Row="95" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="96" Col="0" ValueType="60">Thuringowa</gnm:Cell>
+        <gnm:Cell Row="96" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="96" Col="2" ValueType="40">-19.310874900000002</gnm:Cell>
+        <gnm:Cell Row="96" Col="3" ValueType="40">146.72465489999999</gnm:Cell>
+        <gnm:Cell Row="96" Col="4" ValueType="40">45</gnm:Cell>
+        <gnm:Cell Row="97" Col="0" ValueType="60">Tieri</gnm:Cell>
+        <gnm:Cell Row="97" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="97" Col="2" ValueType="40">-23.0375315</gnm:Cell>
+        <gnm:Cell Row="97" Col="3" ValueType="40">148.34492900000001</gnm:Cell>
+        <gnm:Cell Row="97" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="98" Col="0" ValueType="60">Tin Can Bay</gnm:Cell>
+        <gnm:Cell Row="98" Col="1" ValueType="60">Gympie Regional Coun</gnm:Cell>
+        <gnm:Cell Row="98" Col="2" ValueType="40">-25.926100000000002</gnm:Cell>
+        <gnm:Cell Row="98" Col="3" ValueType="40">152.99510000000001</gnm:Cell>
+        <gnm:Cell Row="98" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="99" Col="0" ValueType="60">Townsville</gnm:Cell>
+        <gnm:Cell Row="99" Col="1" ValueType="60">Townsville City Coun</gnm:Cell>
+        <gnm:Cell Row="99" Col="2" ValueType="40">-19.257899999999999</gnm:Cell>
+        <gnm:Cell Row="99" Col="3" ValueType="40">146.79349999999999</gnm:Cell>
+        <gnm:Cell Row="99" Col="4" ValueType="40">91</gnm:Cell>
+        <gnm:Cell Row="100" Col="0" ValueType="60">Urandangi</gnm:Cell>
+        <gnm:Cell Row="100" Col="1" ValueType="60">Boulia Shire Council</gnm:Cell>
+        <gnm:Cell Row="100" Col="2" ValueType="40">-21.608943</gnm:Cell>
+        <gnm:Cell Row="100" Col="3" ValueType="40">138.31476900000001</gnm:Cell>
+        <gnm:Cell Row="100" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="101" Col="0" ValueType="60">Windorah</gnm:Cell>
+        <gnm:Cell Row="101" Col="1" ValueType="60">Barcoo Shire Council</gnm:Cell>
+        <gnm:Cell Row="101" Col="2" ValueType="40">-25.417795300000002</gnm:Cell>
+        <gnm:Cell Row="101" Col="3" ValueType="40">142.65451630000001</gnm:Cell>
+        <gnm:Cell Row="101" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="102" Col="0" ValueType="60">Winton</gnm:Cell>
+        <gnm:Cell Row="102" Col="1" ValueType="60">Winton Shire Council</gnm:Cell>
+        <gnm:Cell Row="102" Col="2" ValueType="40">-22.386869999999998</gnm:Cell>
+        <gnm:Cell Row="102" Col="3" ValueType="40">143.03818000000001</gnm:Cell>
+        <gnm:Cell Row="102" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="103" Col="0" ValueType="60">Woorabinda</gnm:Cell>
+        <gnm:Cell Row="103" Col="1" ValueType="60">Woorabinda Aborigina</gnm:Cell>
+        <gnm:Cell Row="103" Col="2" ValueType="40">-24.132100000000001</gnm:Cell>
+        <gnm:Cell Row="103" Col="3" ValueType="40">149.4556</gnm:Cell>
+        <gnm:Cell Row="103" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="104" Col="0" ValueType="60">Yandaran</gnm:Cell>
+        <gnm:Cell Row="104" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="104" Col="2" ValueType="40">-24.719816999999999</gnm:Cell>
+        <gnm:Cell Row="104" Col="3" ValueType="40">152.11326299999999</gnm:Cell>
+        <gnm:Cell Row="104" Col="4" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="105" Col="0" ValueType="60">Yaraka</gnm:Cell>
+        <gnm:Cell Row="105" Col="1" ValueType="60">Longreach Regional C</gnm:Cell>
+        <gnm:Cell Row="105" Col="2" ValueType="40">-24.883900000000001</gnm:Cell>
+        <gnm:Cell Row="105" Col="3" ValueType="40">144.07589999999999</gnm:Cell>
+        <gnm:Cell Row="105" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="106" Col="0" ValueType="60">Operations</gnm:Cell>
+        <gnm:Cell Row="106" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="106" Col="2" ValueType="40">-27.4328</gnm:Cell>
+        <gnm:Cell Row="106" Col="3" ValueType="40">153.00970000000001</gnm:Cell>
+        <gnm:Cell Row="106" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="107" Col="0" ValueType="60">Arana Hills</gnm:Cell>
+        <gnm:Cell Row="107" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="107" Col="2" ValueType="40">-27.379899999999999</gnm:Cell>
+        <gnm:Cell Row="107" Col="3" ValueType="40">152.94800000000001</gnm:Cell>
+        <gnm:Cell Row="107" Col="4" ValueType="40">58</gnm:Cell>
+        <gnm:Cell Row="108" Col="0" ValueType="60">Aratula</gnm:Cell>
+        <gnm:Cell Row="108" Col="1" ValueType="60">Scenic Rim Regional</gnm:Cell>
+        <gnm:Cell Row="108" Col="2" ValueType="40">-27.979176200000001</gnm:Cell>
+        <gnm:Cell Row="108" Col="3" ValueType="40">152.55048769999999</gnm:Cell>
+        <gnm:Cell Row="108" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="109" Col="0" ValueType="60">Aurukun</gnm:Cell>
+        <gnm:Cell Row="109" Col="1" ValueType="60">Aurukun Shire Counci</gnm:Cell>
+        <gnm:Cell Row="109" Col="2" ValueType="40">-13.355746099999999</gnm:Cell>
+        <gnm:Cell Row="109" Col="3" ValueType="40">141.72662639999999</gnm:Cell>
+        <gnm:Cell Row="109" Col="4" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="110" Col="0" ValueType="60">Beaudesert</gnm:Cell>
+        <gnm:Cell Row="110" Col="1" ValueType="60">Scenic Rim Regional</gnm:Cell>
+        <gnm:Cell Row="110" Col="2" ValueType="40">-27.989996099999999</gnm:Cell>
+        <gnm:Cell Row="110" Col="3" ValueType="40">152.99699440000001</gnm:Cell>
+        <gnm:Cell Row="110" Col="4" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="111" Col="0" ValueType="60">Beenleigh</gnm:Cell>
+        <gnm:Cell Row="111" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="111" Col="2" ValueType="40">-27.7248375</gnm:Cell>
+        <gnm:Cell Row="111" Col="3" ValueType="40">153.2183205</gnm:Cell>
+        <gnm:Cell Row="111" Col="4" ValueType="40">29</gnm:Cell>
+        <gnm:Cell Row="112" Col="0" ValueType="60">Boonah</gnm:Cell>
+        <gnm:Cell Row="112" Col="1" ValueType="60">Scenic Rim Regional</gnm:Cell>
+        <gnm:Cell Row="112" Col="2" ValueType="40">-27.9976187</gnm:Cell>
+        <gnm:Cell Row="112" Col="3" ValueType="40">152.68386090000001</gnm:Cell>
+        <gnm:Cell Row="112" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="113" Col="0" ValueType="60">Bribie Island</gnm:Cell>
+        <gnm:Cell Row="113" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="113" Col="2" ValueType="40">-27.0794</gnm:Cell>
+        <gnm:Cell Row="113" Col="3" ValueType="40">153.17920000000001</gnm:Cell>
+        <gnm:Cell Row="113" Col="4" ValueType="40">38</gnm:Cell>
+        <gnm:Cell Row="114" Col="0" ValueType="60">Caboolture</gnm:Cell>
+        <gnm:Cell Row="114" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="114" Col="2" ValueType="40">-27.072800000000001</gnm:Cell>
+        <gnm:Cell Row="114" Col="3" ValueType="40">152.94669999999999</gnm:Cell>
+        <gnm:Cell Row="114" Col="4" ValueType="40">34</gnm:Cell>
+        <gnm:Cell Row="115" Col="0" ValueType="60">Carrara</gnm:Cell>
+        <gnm:Cell Row="115" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="115" Col="2" ValueType="40">-28.0369347</gnm:Cell>
+        <gnm:Cell Row="115" Col="3" ValueType="40">153.3549864</gnm:Cell>
+        <gnm:Cell Row="115" Col="4" ValueType="40">50</gnm:Cell>
+        <gnm:Cell Row="116" Col="0" ValueType="60">Cecil Plains</gnm:Cell>
+        <gnm:Cell Row="116" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="116" Col="2" ValueType="40">-27.5307344</gnm:Cell>
+        <gnm:Cell Row="116" Col="3" ValueType="40">151.19499819999999</gnm:Cell>
+        <gnm:Cell Row="116" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="117" Col="0" ValueType="60">Charleville</gnm:Cell>
+        <gnm:Cell Row="117" Col="1" ValueType="60">Murweh Shire Council</gnm:Cell>
+        <gnm:Cell Row="117" Col="2" ValueType="40">-26.398649299999999</gnm:Cell>
+        <gnm:Cell Row="117" Col="3" ValueType="40">146.24288680000001</gnm:Cell>
+        <gnm:Cell Row="117" Col="4" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="118" Col="0" ValueType="60">Chinchilla</gnm:Cell>
+        <gnm:Cell Row="118" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="118" Col="2" ValueType="40">-26.741322400000001</gnm:Cell>
+        <gnm:Cell Row="118" Col="3" ValueType="40">150.62873809999999</gnm:Cell>
+        <gnm:Cell Row="118" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="119" Col="0" ValueType="60">Cleveland (Redlands)</gnm:Cell>
+        <gnm:Cell Row="119" Col="1" ValueType="60">Redland Shire Counci</gnm:Cell>
+        <gnm:Cell Row="119" Col="2" ValueType="40">-27.528500000000001</gnm:Cell>
+        <gnm:Cell Row="119" Col="3" ValueType="40">153.2551</gnm:Cell>
+        <gnm:Cell Row="119" Col="4" ValueType="40">63</gnm:Cell>
+        <gnm:Cell Row="120" Col="0" ValueType="60">Clifton</gnm:Cell>
+        <gnm:Cell Row="120" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="120" Col="2" ValueType="40">-27.928000000000001</gnm:Cell>
+        <gnm:Cell Row="120" Col="3" ValueType="40">151.90520000000001</gnm:Cell>
+        <gnm:Cell Row="120" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="121" Col="0" ValueType="60">Condamine</gnm:Cell>
+        <gnm:Cell Row="121" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="121" Col="2" ValueType="40">-26.9253</gnm:Cell>
+        <gnm:Cell Row="121" Col="3" ValueType="40">150.13659999999999</gnm:Cell>
+        <gnm:Cell Row="121" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="122" Col="0" ValueType="60">Coolangatta</gnm:Cell>
+        <gnm:Cell Row="122" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="122" Col="2" ValueType="40">-28.161583199999999</gnm:Cell>
+        <gnm:Cell Row="122" Col="3" ValueType="40">153.51153919999999</gnm:Cell>
+        <gnm:Cell Row="122" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="123" Col="0" ValueType="60">Crows Nest</gnm:Cell>
+        <gnm:Cell Row="123" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="123" Col="2" ValueType="40">-27.278400000000001</gnm:Cell>
+        <gnm:Cell Row="123" Col="3" ValueType="40">152.05369999999999</gnm:Cell>
+        <gnm:Cell Row="123" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="124" Col="0" ValueType="60">Croydon</gnm:Cell>
+        <gnm:Cell Row="124" Col="1" ValueType="60">Croydon Shire Counci</gnm:Cell>
+        <gnm:Cell Row="124" Col="2" ValueType="40">-18.202451</gnm:Cell>
+        <gnm:Cell Row="124" Col="3" ValueType="40">142.24250860000001</gnm:Cell>
+        <gnm:Cell Row="124" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="125" Col="0" ValueType="60">Cunnamulla</gnm:Cell>
+        <gnm:Cell Row="125" Col="1" ValueType="60">Paroo Shire Council</gnm:Cell>
+        <gnm:Cell Row="125" Col="2" ValueType="40">-28.067965399999999</gnm:Cell>
+        <gnm:Cell Row="125" Col="3" ValueType="40">145.68456159999999</gnm:Cell>
+        <gnm:Cell Row="125" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="126" Col="0" ValueType="60">Dalby</gnm:Cell>
+        <gnm:Cell Row="126" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="126" Col="2" ValueType="40">-27.165700000000001</gnm:Cell>
+        <gnm:Cell Row="126" Col="3" ValueType="40">151.26609999999999</gnm:Cell>
+        <gnm:Cell Row="126" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="127" Col="0" ValueType="60">Deception Bay</gnm:Cell>
+        <gnm:Cell Row="127" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="127" Col="2" ValueType="40">-27.182099999999998</gnm:Cell>
+        <gnm:Cell Row="127" Col="3" ValueType="40">153.01820000000001</gnm:Cell>
+        <gnm:Cell Row="127" Col="4" ValueType="40">39</gnm:Cell>
+        <gnm:Cell Row="128" Col="0" ValueType="60">Dulacca</gnm:Cell>
+        <gnm:Cell Row="128" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="128" Col="2" ValueType="40">-26.643899999999999</gnm:Cell>
+        <gnm:Cell Row="128" Col="3" ValueType="40">149.7603</gnm:Cell>
+        <gnm:Cell Row="128" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="129" Col="0" ValueType="60">Eastern</gnm:Cell>
+        <gnm:Cell Row="129" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="129" Col="2" ValueType="40">-27.4695</gnm:Cell>
+        <gnm:Cell Row="129" Col="3" ValueType="40">153.07130000000001</gnm:Cell>
+        <gnm:Cell Row="129" Col="4" ValueType="40">102</gnm:Cell>
+        <gnm:Cell Row="130" Col="0" ValueType="60">Eromanga</gnm:Cell>
+        <gnm:Cell Row="130" Col="1" ValueType="60">Quilpie Shire Counci</gnm:Cell>
+        <gnm:Cell Row="130" Col="2" ValueType="40">-26.669</gnm:Cell>
+        <gnm:Cell Row="130" Col="3" ValueType="40">143.26949999999999</gnm:Cell>
+        <gnm:Cell Row="130" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="131" Col="0" ValueType="60">Esk</gnm:Cell>
+        <gnm:Cell Row="131" Col="1" ValueType="60">Somerset Regional Co</gnm:Cell>
+        <gnm:Cell Row="131" Col="2" ValueType="40">-27.240449699999999</gnm:Cell>
+        <gnm:Cell Row="131" Col="3" ValueType="40">152.42050119999999</gnm:Cell>
+        <gnm:Cell Row="131" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="132" Col="0" ValueType="60">Eulo</gnm:Cell>
+        <gnm:Cell Row="132" Col="1" ValueType="60">Paroo Shire Council</gnm:Cell>
+        <gnm:Cell Row="132" Col="2" ValueType="40">-28.159766000000001</gnm:Cell>
+        <gnm:Cell Row="132" Col="3" ValueType="40">145.04733999999999</gnm:Cell>
+        <gnm:Cell Row="132" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="133" Col="0" ValueType="60">Forest Hill</gnm:Cell>
+        <gnm:Cell Row="133" Col="1" ValueType="60">Lockyer Valley Regio</gnm:Cell>
+        <gnm:Cell Row="133" Col="2" ValueType="40">-27.587199999999999</gnm:Cell>
+        <gnm:Cell Row="133" Col="3" ValueType="40">152.35570000000001</gnm:Cell>
+        <gnm:Cell Row="133" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="134" Col="0" ValueType="60">Gatton</gnm:Cell>
+        <gnm:Cell Row="134" Col="1" ValueType="60">Lockyer Valley Regio</gnm:Cell>
+        <gnm:Cell Row="134" Col="2" ValueType="40">-27.558399999999999</gnm:Cell>
+        <gnm:Cell Row="134" Col="3" ValueType="40">152.28360000000001</gnm:Cell>
+        <gnm:Cell Row="134" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="135" Col="0" ValueType="60">Georgetown</gnm:Cell>
+        <gnm:Cell Row="135" Col="1" ValueType="60">Etheridge Shire Coun</gnm:Cell>
+        <gnm:Cell Row="135" Col="2" ValueType="40">-18.290180800000002</gnm:Cell>
+        <gnm:Cell Row="135" Col="3" ValueType="40">143.5470741</gnm:Cell>
+        <gnm:Cell Row="135" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="136" Col="0" ValueType="60">Goodna</gnm:Cell>
+        <gnm:Cell Row="136" Col="1" ValueType="60">Ipswich City Council</gnm:Cell>
+        <gnm:Cell Row="136" Col="2" ValueType="40">-27.6526386</gnm:Cell>
+        <gnm:Cell Row="136" Col="3" ValueType="40">152.86513500000001</gnm:Cell>
+        <gnm:Cell Row="136" Col="4" ValueType="40">62</gnm:Cell>
+        <gnm:Cell Row="137" Col="0" ValueType="60">Goombungee</gnm:Cell>
+        <gnm:Cell Row="137" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="137" Col="2" ValueType="40">-27.2974</gnm:Cell>
+        <gnm:Cell Row="137" Col="3" ValueType="40">151.8528</gnm:Cell>
+        <gnm:Cell Row="137" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="138" Col="0" ValueType="60">Goondiwindi</gnm:Cell>
+        <gnm:Cell Row="138" Col="1" ValueType="60">Goondiwindi Regional</gnm:Cell>
+        <gnm:Cell Row="138" Col="2" ValueType="40">-28.520900000000001</gnm:Cell>
+        <gnm:Cell Row="138" Col="3" ValueType="40">150.32669999999999</gnm:Cell>
+        <gnm:Cell Row="138" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="139" Col="0" ValueType="60">Hope Vale</gnm:Cell>
+        <gnm:Cell Row="139" Col="1" ValueType="60">Hopevale Aboriginal</gnm:Cell>
+        <gnm:Cell Row="139" Col="2" ValueType="40">-15.294798</gnm:Cell>
+        <gnm:Cell Row="139" Col="3" ValueType="40">145.11169599999999</gnm:Cell>
+        <gnm:Cell Row="139" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="140" Col="0" ValueType="60">Horn Island</gnm:Cell>
+        <gnm:Cell Row="140" Col="1" ValueType="60">Torres Shire Council</gnm:Cell>
+        <gnm:Cell Row="140" Col="2" ValueType="40">-10.5953461</gnm:Cell>
+        <gnm:Cell Row="140" Col="3" ValueType="40">142.24869290000001</gnm:Cell>
+        <gnm:Cell Row="140" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="141" Col="0" ValueType="60">Inglewood</gnm:Cell>
+        <gnm:Cell Row="141" Col="1" ValueType="60">Goondiwindi Regional</gnm:Cell>
+        <gnm:Cell Row="141" Col="2" ValueType="40">-28.417100000000001</gnm:Cell>
+        <gnm:Cell Row="141" Col="3" ValueType="40">151.07769999999999</gnm:Cell>
+        <gnm:Cell Row="141" Col="4" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="142" Col="0" ValueType="60">Injune</gnm:Cell>
+        <gnm:Cell Row="142" Col="1" ValueType="60">Maranoa Regional Cou</gnm:Cell>
+        <gnm:Cell Row="142" Col="2" ValueType="40">-25.845707099999998</gnm:Cell>
+        <gnm:Cell Row="142" Col="3" ValueType="40">148.56264619999999</gnm:Cell>
+        <gnm:Cell Row="142" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="143" Col="0" ValueType="60">Ipswich</gnm:Cell>
+        <gnm:Cell Row="143" Col="1" ValueType="60">Ipswich City Council</gnm:Cell>
+        <gnm:Cell Row="143" Col="2" ValueType="40">-27.620882300000002</gnm:Cell>
+        <gnm:Cell Row="143" Col="3" ValueType="40">152.76390850000001</gnm:Cell>
+        <gnm:Cell Row="143" Col="4" ValueType="40">74</gnm:Cell>
+        <gnm:Cell Row="144" Col="0" ValueType="60">Jandowae</gnm:Cell>
+        <gnm:Cell Row="144" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="144" Col="2" ValueType="40">-26.781099999999999</gnm:Cell>
+        <gnm:Cell Row="144" Col="3" ValueType="40">151.1189</gnm:Cell>
+        <gnm:Cell Row="144" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="145" Col="0" ValueType="60">Flinders Peak</gnm:Cell>
+        <gnm:Cell Row="145" Col="1" ValueType="60">Scenic Rim Regional</gnm:Cell>
+        <gnm:Cell Row="145" Col="2" ValueType="40">-27.789165700000002</gnm:Cell>
+        <gnm:Cell Row="145" Col="3" ValueType="40">152.72193809999999</gnm:Cell>
+        <gnm:Cell Row="145" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="146" Col="0" ValueType="60">Kilcoy</gnm:Cell>
+        <gnm:Cell Row="146" Col="1" ValueType="60">Somerset Regional Co</gnm:Cell>
+        <gnm:Cell Row="146" Col="2" ValueType="40">-26.941362699999999</gnm:Cell>
+        <gnm:Cell Row="146" Col="3" ValueType="40">152.56453049999999</gnm:Cell>
+        <gnm:Cell Row="146" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="147" Col="0" ValueType="60">Kowanyama</gnm:Cell>
+        <gnm:Cell Row="147" Col="1" ValueType="60">Kowanyama Aboriginal</gnm:Cell>
+        <gnm:Cell Row="147" Col="2" ValueType="40">-15.483000000000001</gnm:Cell>
+        <gnm:Cell Row="147" Col="3" ValueType="40">141.7501</gnm:Cell>
+        <gnm:Cell Row="147" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="148" Col="0" ValueType="60">Laidley</gnm:Cell>
+        <gnm:Cell Row="148" Col="1" ValueType="60">Lockyer Valley Regio</gnm:Cell>
+        <gnm:Cell Row="148" Col="2" ValueType="40">-27.656600000000001</gnm:Cell>
+        <gnm:Cell Row="148" Col="3" ValueType="40">152.40440000000001</gnm:Cell>
+        <gnm:Cell Row="148" Col="4" ValueType="40">28</gnm:Cell>
+        <gnm:Cell Row="149" Col="0" ValueType="60">Lockhart River</gnm:Cell>
+        <gnm:Cell Row="149" Col="1" ValueType="60">Lockhart River Abori</gnm:Cell>
+        <gnm:Cell Row="149" Col="2" ValueType="40">-12.7899212</gnm:Cell>
+        <gnm:Cell Row="149" Col="3" ValueType="40">143.30971260000001</gnm:Cell>
+        <gnm:Cell Row="149" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="150" Col="0" ValueType="60">Logan Central</gnm:Cell>
+        <gnm:Cell Row="150" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="150" Col="2" ValueType="40">-27.638120099999998</gnm:Cell>
+        <gnm:Cell Row="150" Col="3" ValueType="40">153.10167300000001</gnm:Cell>
+        <gnm:Cell Row="150" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="151" Col="0" ValueType="60">Logan East</gnm:Cell>
+        <gnm:Cell Row="151" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="151" Col="2" ValueType="40">-27.644478700000001</gnm:Cell>
+        <gnm:Cell Row="151" Col="3" ValueType="40">153.1481876</gnm:Cell>
+        <gnm:Cell Row="151" Col="4" ValueType="40">56</gnm:Cell>
+        <gnm:Cell Row="152" Col="0" ValueType="60">Logan Village</gnm:Cell>
+        <gnm:Cell Row="152" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="152" Col="2" ValueType="40">-27.786163999999999</gnm:Cell>
+        <gnm:Cell Row="152" Col="3" ValueType="40">153.10046819999999</gnm:Cell>
+        <gnm:Cell Row="152" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="153" Col="0" ValueType="60">Logan West</gnm:Cell>
+        <gnm:Cell Row="153" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="153" Col="2" ValueType="40">-27.704039699999999</gnm:Cell>
+        <gnm:Cell Row="153" Col="3" ValueType="40">153.03958650000001</gnm:Cell>
+        <gnm:Cell Row="153" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="154" Col="0" ValueType="60">Lowood</gnm:Cell>
+        <gnm:Cell Row="154" Col="1" ValueType="60">Somerset Regional Co</gnm:Cell>
+        <gnm:Cell Row="154" Col="2" ValueType="40">-27.455818900000001</gnm:Cell>
+        <gnm:Cell Row="154" Col="3" ValueType="40">152.58290120000001</gnm:Cell>
+        <gnm:Cell Row="154" Col="4" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="155" Col="0" ValueType="60">Marburg</gnm:Cell>
+        <gnm:Cell Row="155" Col="1" ValueType="60">Ipswich City Council</gnm:Cell>
+        <gnm:Cell Row="155" Col="2" ValueType="40">-27.563649000000002</gnm:Cell>
+        <gnm:Cell Row="155" Col="3" ValueType="40">152.59455600000001</gnm:Cell>
+        <gnm:Cell Row="155" Col="4" ValueType="40">29</gnm:Cell>
+        <gnm:Cell Row="156" Col="0" ValueType="60">Metro</gnm:Cell>
+        <gnm:Cell Row="156" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="156" Col="2" ValueType="40">-27.432700000000001</gnm:Cell>
+        <gnm:Cell Row="156" Col="3" ValueType="40">153.00970000000001</gnm:Cell>
+        <gnm:Cell Row="156" Col="4" ValueType="40">55</gnm:Cell>
+        <gnm:Cell Row="157" Col="0" ValueType="60">Miles</gnm:Cell>
+        <gnm:Cell Row="157" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="157" Col="2" ValueType="40">-26.6587</gnm:Cell>
+        <gnm:Cell Row="157" Col="3" ValueType="40">150.19919999999999</gnm:Cell>
+        <gnm:Cell Row="157" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="158" Col="0" ValueType="60">Millmerran</gnm:Cell>
+        <gnm:Cell Row="158" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="158" Col="2" ValueType="40">-27.886800000000001</gnm:Cell>
+        <gnm:Cell Row="158" Col="3" ValueType="40">151.26140000000001</gnm:Cell>
+        <gnm:Cell Row="158" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="159" Col="0" ValueType="60">Mitchell</gnm:Cell>
+        <gnm:Cell Row="159" Col="1" ValueType="60">Maranoa Regional Cou</gnm:Cell>
+        <gnm:Cell Row="159" Col="2" ValueType="40">-26.495167299999999</gnm:Cell>
+        <gnm:Cell Row="159" Col="3" ValueType="40">147.9800367</gnm:Cell>
+        <gnm:Cell Row="159" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="160" Col="0" ValueType="60">Moggill</gnm:Cell>
+        <gnm:Cell Row="160" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="160" Col="2" ValueType="40">-27.558911899999998</gnm:Cell>
+        <gnm:Cell Row="160" Col="3" ValueType="40">152.8561966</gnm:Cell>
+        <gnm:Cell Row="160" Col="4" ValueType="40">37</gnm:Cell>
+        <gnm:Cell Row="161" Col="0" ValueType="60">Moreton Island</gnm:Cell>
+        <gnm:Cell Row="161" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="161" Col="2" ValueType="40">-27.184000000000001</gnm:Cell>
+        <gnm:Cell Row="161" Col="3" ValueType="40">153.3708</gnm:Cell>
+        <gnm:Cell Row="161" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="162" Col="0" ValueType="60">North Eastern</gnm:Cell>
+        <gnm:Cell Row="162" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="162" Col="2" ValueType="40">-27.4313</gnm:Cell>
+        <gnm:Cell Row="162" Col="3" ValueType="40">153.0694</gnm:Cell>
+        <gnm:Cell Row="162" Col="4" ValueType="40">44</gnm:Cell>
+        <gnm:Cell Row="163" Col="0" ValueType="60">Northern</gnm:Cell>
+        <gnm:Cell Row="163" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="163" Col="2" ValueType="40">-27.410399999999999</gnm:Cell>
+        <gnm:Cell Row="163" Col="3" ValueType="40">153.02529999999999</gnm:Cell>
+        <gnm:Cell Row="163" Col="4" ValueType="40">90</gnm:Cell>
+        <gnm:Cell Row="164" Col="0" ValueType="60">Oakey</gnm:Cell>
+        <gnm:Cell Row="164" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="164" Col="2" ValueType="40">-27.441199999999998</gnm:Cell>
+        <gnm:Cell Row="164" Col="3" ValueType="40">151.72559999999999</gnm:Cell>
+        <gnm:Cell Row="164" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="165" Col="0" ValueType="60">Petrie</gnm:Cell>
+        <gnm:Cell Row="165" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="165" Col="2" ValueType="40">-27.265699999999999</gnm:Cell>
+        <gnm:Cell Row="165" Col="3" ValueType="40">152.9676</gnm:Cell>
+        <gnm:Cell Row="165" Col="4" ValueType="40">42</gnm:Cell>
+        <gnm:Cell Row="166" Col="0" ValueType="60">Pimpama</gnm:Cell>
+        <gnm:Cell Row="166" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="166" Col="2" ValueType="40">-27.816801000000002</gnm:Cell>
+        <gnm:Cell Row="166" Col="3" ValueType="40">153.289401</gnm:Cell>
+        <gnm:Cell Row="166" Col="4" ValueType="40">38</gnm:Cell>
+        <gnm:Cell Row="167" Col="0" ValueType="60">Pittsworth</gnm:Cell>
+        <gnm:Cell Row="167" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="167" Col="2" ValueType="40">-27.711500000000001</gnm:Cell>
+        <gnm:Cell Row="167" Col="3" ValueType="40">151.6422</gnm:Cell>
+        <gnm:Cell Row="167" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="168" Col="0" ValueType="60">Pormpuraaw</gnm:Cell>
+        <gnm:Cell Row="168" Col="1" ValueType="60">Pormpuraaw Aborigina</gnm:Cell>
+        <gnm:Cell Row="168" Col="2" ValueType="40">-14.8995</gnm:Cell>
+        <gnm:Cell Row="168" Col="3" ValueType="40">141.6121</gnm:Cell>
+        <gnm:Cell Row="168" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="169" Col="0" ValueType="60">Quilpie</gnm:Cell>
+        <gnm:Cell Row="169" Col="1" ValueType="60">Quilpie Shire Counci</gnm:Cell>
+        <gnm:Cell Row="169" Col="2" ValueType="40">-26.618834700000001</gnm:Cell>
+        <gnm:Cell Row="169" Col="3" ValueType="40">144.26750340000001</gnm:Cell>
+        <gnm:Cell Row="169" Col="4" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="170" Col="0" ValueType="60">Redcliffe</gnm:Cell>
+        <gnm:Cell Row="170" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="170" Col="2" ValueType="40">-27.228100000000001</gnm:Cell>
+        <gnm:Cell Row="170" Col="3" ValueType="40">153.1086</gnm:Cell>
+        <gnm:Cell Row="170" Col="4" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="171" Col="0" ValueType="60">Roma</gnm:Cell>
+        <gnm:Cell Row="171" Col="1" ValueType="60">Maranoa Regional Cou</gnm:Cell>
+        <gnm:Cell Row="171" Col="2" ValueType="40">-26.574028800000001</gnm:Cell>
+        <gnm:Cell Row="171" Col="3" ValueType="40">148.77918489999999</gnm:Cell>
+        <gnm:Cell Row="171" Col="4" ValueType="40">33</gnm:Cell>
+        <gnm:Cell Row="172" Col="0" ValueType="60">Rosewood</gnm:Cell>
+        <gnm:Cell Row="172" Col="1" ValueType="60">Ipswich City Council</gnm:Cell>
+        <gnm:Cell Row="172" Col="2" ValueType="40">-27.6450204</gnm:Cell>
+        <gnm:Cell Row="172" Col="3" ValueType="40">152.5914186</gnm:Cell>
+        <gnm:Cell Row="172" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="173" Col="0" ValueType="60">Runaway Bay</gnm:Cell>
+        <gnm:Cell Row="173" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="173" Col="2" ValueType="40">-27.9114255</gnm:Cell>
+        <gnm:Cell Row="173" Col="3" ValueType="40">153.39574300000001</gnm:Cell>
+        <gnm:Cell Row="173" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="174" Col="0" ValueType="60">South Western</gnm:Cell>
+        <gnm:Cell Row="174" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="174" Col="2" ValueType="40">-27.595248399999999</gnm:Cell>
+        <gnm:Cell Row="174" Col="3" ValueType="40">152.95580709999999</gnm:Cell>
+        <gnm:Cell Row="174" Col="4" ValueType="40">56</gnm:Cell>
+        <gnm:Cell Row="175" Col="0" ValueType="60">Southern</gnm:Cell>
+        <gnm:Cell Row="175" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="175" Col="2" ValueType="40">-27.552900000000001</gnm:Cell>
+        <gnm:Cell Row="175" Col="3" ValueType="40">153.02189999999999</gnm:Cell>
+        <gnm:Cell Row="175" Col="4" ValueType="40">86</gnm:Cell>
+        <gnm:Cell Row="176" Col="0" ValueType="60">Southport</gnm:Cell>
+        <gnm:Cell Row="176" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="176" Col="2" ValueType="40">-27.971280199999999</gnm:Cell>
+        <gnm:Cell Row="176" Col="3" ValueType="40">153.40369100000001</gnm:Cell>
+        <gnm:Cell Row="176" Col="4" ValueType="40">51</gnm:Cell>
+        <gnm:Cell Row="177" Col="0" ValueType="60">Springbrook</gnm:Cell>
+        <gnm:Cell Row="177" Col="1" ValueType="60">Gold Coast City Coun</gnm:Cell>
+        <gnm:Cell Row="177" Col="2" ValueType="40">-28.194835300000001</gnm:Cell>
+        <gnm:Cell Row="177" Col="3" ValueType="40">153.26867329999999</gnm:Cell>
+        <gnm:Cell Row="177" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="178" Col="0" ValueType="60">Stanthorpe</gnm:Cell>
+        <gnm:Cell Row="178" Col="1" ValueType="60">Southern Downs Regio</gnm:Cell>
+        <gnm:Cell Row="178" Col="2" ValueType="40">-28.6572</gnm:Cell>
+        <gnm:Cell Row="178" Col="3" ValueType="40">151.91669999999999</gnm:Cell>
+        <gnm:Cell Row="178" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="179" Col="0" ValueType="60">Stradbroke Island</gnm:Cell>
+        <gnm:Cell Row="179" Col="1" ValueType="60">Redland Shire Counci</gnm:Cell>
+        <gnm:Cell Row="179" Col="2" ValueType="40">-27.4969</gnm:Cell>
+        <gnm:Cell Row="179" Col="3" ValueType="40">153.4084</gnm:Cell>
+        <gnm:Cell Row="179" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="180" Col="0" ValueType="60">Surat</gnm:Cell>
+        <gnm:Cell Row="180" Col="1" ValueType="60">Maranoa Regional Cou</gnm:Cell>
+        <gnm:Cell Row="180" Col="2" ValueType="40">-27.152033200000002</gnm:Cell>
+        <gnm:Cell Row="180" Col="3" ValueType="40">149.07117099999999</gnm:Cell>
+        <gnm:Cell Row="180" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="181" Col="0" ValueType="60">Tamborine</gnm:Cell>
+        <gnm:Cell Row="181" Col="1" ValueType="60">Scenic Rim Regional</gnm:Cell>
+        <gnm:Cell Row="181" Col="2" ValueType="40">-27.9212846</gnm:Cell>
+        <gnm:Cell Row="181" Col="3" ValueType="40">153.1835911</gnm:Cell>
+        <gnm:Cell Row="181" Col="4" ValueType="40">46</gnm:Cell>
+        <gnm:Cell Row="182" Col="0" ValueType="60">Tara</gnm:Cell>
+        <gnm:Cell Row="182" Col="1" ValueType="60">Western Downs Region</gnm:Cell>
+        <gnm:Cell Row="182" Col="2" ValueType="40">-27.278099999999998</gnm:Cell>
+        <gnm:Cell Row="182" Col="3" ValueType="40">150.4599</gnm:Cell>
+        <gnm:Cell Row="182" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="183" Col="0" ValueType="60">Texas</gnm:Cell>
+        <gnm:Cell Row="183" Col="1" ValueType="60">Goondiwindi Regional</gnm:Cell>
+        <gnm:Cell Row="183" Col="2" ValueType="40">-28.853200000000001</gnm:Cell>
+        <gnm:Cell Row="183" Col="3" ValueType="40">151.17410000000001</gnm:Cell>
+        <gnm:Cell Row="183" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="184" Col="0" ValueType="60">Thargomindah</gnm:Cell>
+        <gnm:Cell Row="184" Col="1" ValueType="60">Bulloo Shire Council</gnm:Cell>
+        <gnm:Cell Row="184" Col="2" ValueType="40">-27.9971079</gnm:Cell>
+        <gnm:Cell Row="184" Col="3" ValueType="40">143.82425549999999</gnm:Cell>
+        <gnm:Cell Row="184" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="185" Col="0" ValueType="60">Toogoolawah</gnm:Cell>
+        <gnm:Cell Row="185" Col="1" ValueType="60">Somerset Regional Co</gnm:Cell>
+        <gnm:Cell Row="185" Col="2" ValueType="40">-27.090499099999999</gnm:Cell>
+        <gnm:Cell Row="185" Col="3" ValueType="40">152.3745983</gnm:Cell>
+        <gnm:Cell Row="185" Col="4" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="186" Col="0" ValueType="60">Toowoomba</gnm:Cell>
+        <gnm:Cell Row="186" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="186" Col="2" ValueType="40">-27.563300000000002</gnm:Cell>
+        <gnm:Cell Row="186" Col="3" ValueType="40">151.9564</gnm:Cell>
+        <gnm:Cell Row="186" Col="4" ValueType="40">63</gnm:Cell>
+        <gnm:Cell Row="187" Col="0" ValueType="60">Wallangarra</gnm:Cell>
+        <gnm:Cell Row="187" Col="1" ValueType="60">Southern Downs Regio</gnm:Cell>
+        <gnm:Cell Row="187" Col="2" ValueType="40">-28.9222</gnm:Cell>
+        <gnm:Cell Row="187" Col="3" ValueType="40">151.9264</gnm:Cell>
+        <gnm:Cell Row="187" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="188" Col="0" ValueType="60">Wallumbilla</gnm:Cell>
+        <gnm:Cell Row="188" Col="1" ValueType="60">Maranoa Regional Cou</gnm:Cell>
+        <gnm:Cell Row="188" Col="2" ValueType="40">-26.587053999999998</gnm:Cell>
+        <gnm:Cell Row="188" Col="3" ValueType="40">149.18634299999999</gnm:Cell>
+        <gnm:Cell Row="188" Col="4" ValueType="40">29</gnm:Cell>
+        <gnm:Cell Row="189" Col="0" ValueType="60">Warwick</gnm:Cell>
+        <gnm:Cell Row="189" Col="1" ValueType="60">Southern Downs Regio</gnm:Cell>
+        <gnm:Cell Row="189" Col="2" ValueType="40">-28.215800000000002</gnm:Cell>
+        <gnm:Cell Row="189" Col="3" ValueType="40">152.03380000000001</gnm:Cell>
+        <gnm:Cell Row="189" Col="4" ValueType="40">37</gnm:Cell>
+        <gnm:Cell Row="190" Col="0" ValueType="60">Weipa</gnm:Cell>
+        <gnm:Cell Row="190" Col="1" ValueType="60">Weipa Town Council</gnm:Cell>
+        <gnm:Cell Row="190" Col="2" ValueType="40">-12.662800000000001</gnm:Cell>
+        <gnm:Cell Row="190" Col="3" ValueType="40">141.84880000000001</gnm:Cell>
+        <gnm:Cell Row="190" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="191" Col="0" ValueType="60">Western</gnm:Cell>
+        <gnm:Cell Row="191" Col="1" ValueType="60">Brisbane City Counci</gnm:Cell>
+        <gnm:Cell Row="191" Col="2" ValueType="40">-27.4908</gnm:Cell>
+        <gnm:Cell Row="191" Col="3" ValueType="40">152.9931</gnm:Cell>
+        <gnm:Cell Row="191" Col="4" ValueType="40">66</gnm:Cell>
+        <gnm:Cell Row="192" Col="0" ValueType="60">Wujal Wujal</gnm:Cell>
+        <gnm:Cell Row="192" Col="1" ValueType="60">Wujal Wujal Aborigin</gnm:Cell>
+        <gnm:Cell Row="192" Col="2" ValueType="40">-15.9442927</gnm:Cell>
+        <gnm:Cell Row="192" Col="3" ValueType="40">145.31825979999999</gnm:Cell>
+        <gnm:Cell Row="192" Col="4" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="193" Col="0" ValueType="60">Wyandra</gnm:Cell>
+        <gnm:Cell Row="193" Col="1" ValueType="60">Paroo Shire Council</gnm:Cell>
+        <gnm:Cell Row="193" Col="2" ValueType="40">-27.245906000000002</gnm:Cell>
+        <gnm:Cell Row="193" Col="3" ValueType="40">145.9786383</gnm:Cell>
+        <gnm:Cell Row="193" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="194" Col="0" ValueType="60">Yarraman</gnm:Cell>
+        <gnm:Cell Row="194" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="194" Col="2" ValueType="40">-26.8432</gnm:Cell>
+        <gnm:Cell Row="194" Col="3" ValueType="40">151.976</gnm:Cell>
+        <gnm:Cell Row="194" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="195" Col="0" ValueType="60">Yowah</gnm:Cell>
+        <gnm:Cell Row="195" Col="1" ValueType="60">Paroo Shire Council</gnm:Cell>
+        <gnm:Cell Row="195" Col="2" ValueType="40">-27.971126999999999</gnm:Cell>
+        <gnm:Cell Row="195" Col="3" ValueType="40">144.63603140000001</gnm:Cell>
+        <gnm:Cell Row="195" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="196" Col="0" ValueType="60">Cardwell</gnm:Cell>
+        <gnm:Cell Row="196" Col="1" ValueType="60">Cassowary Coast Regi</gnm:Cell>
+        <gnm:Cell Row="196" Col="2" ValueType="40">-18.270643</gnm:Cell>
+        <gnm:Cell Row="196" Col="3" ValueType="40">146.01270700000001</gnm:Cell>
+        <gnm:Cell Row="196" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="197" Col="0" ValueType="60">Atherton</gnm:Cell>
+        <gnm:Cell Row="197" Col="1" ValueType="60">Tablelands Regional</gnm:Cell>
+        <gnm:Cell Row="197" Col="2" ValueType="40">-17.267628800000001</gnm:Cell>
+        <gnm:Cell Row="197" Col="3" ValueType="40">145.476687</gnm:Cell>
+        <gnm:Cell Row="197" Col="4" ValueType="40">64</gnm:Cell>
+        <gnm:Cell Row="198" Col="0" ValueType="60">Malanda</gnm:Cell>
+        <gnm:Cell Row="198" Col="1" ValueType="60">Tablelands Regional</gnm:Cell>
+        <gnm:Cell Row="198" Col="2" ValueType="40">-17.350338600000001</gnm:Cell>
+        <gnm:Cell Row="198" Col="3" ValueType="40">145.59102490000001</gnm:Cell>
+        <gnm:Cell Row="198" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="199" Col="0" ValueType="60">Mount Garnet</gnm:Cell>
+        <gnm:Cell Row="199" Col="1" ValueType="60">Tablelands Regional</gnm:Cell>
+        <gnm:Cell Row="199" Col="2" ValueType="40">-17.678799999999999</gnm:Cell>
+        <gnm:Cell Row="199" Col="3" ValueType="40">145.12119999999999</gnm:Cell>
+        <gnm:Cell Row="199" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="200" Col="0" ValueType="60">Blackbutt</gnm:Cell>
+        <gnm:Cell Row="200" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="200" Col="2" ValueType="40">-26.882485500000001</gnm:Cell>
+        <gnm:Cell Row="200" Col="3" ValueType="40">152.1040744</gnm:Cell>
+        <gnm:Cell Row="200" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="201" Col="0" ValueType="60">Murgon</gnm:Cell>
+        <gnm:Cell Row="201" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="201" Col="2" ValueType="40">-26.243308500000001</gnm:Cell>
+        <gnm:Cell Row="201" Col="3" ValueType="40">151.9404318</gnm:Cell>
+        <gnm:Cell Row="201" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="202" Col="0" ValueType="60">Wondai</gnm:Cell>
+        <gnm:Cell Row="202" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="202" Col="2" ValueType="40">-26.3200857</gnm:Cell>
+        <gnm:Cell Row="202" Col="3" ValueType="40">151.87863329999999</gnm:Cell>
+        <gnm:Cell Row="202" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="203" Col="0" ValueType="60">Proston</gnm:Cell>
+        <gnm:Cell Row="203" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="203" Col="2" ValueType="40">-26.166672599999998</gnm:Cell>
+        <gnm:Cell Row="203" Col="3" ValueType="40">151.6024142</gnm:Cell>
+        <gnm:Cell Row="203" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="204" Col="0" ValueType="60">Baralaba</gnm:Cell>
+        <gnm:Cell Row="204" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="204" Col="2" ValueType="40">-24.185574899999999</gnm:Cell>
+        <gnm:Cell Row="204" Col="3" ValueType="40">149.81105869999999</gnm:Cell>
+        <gnm:Cell Row="204" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="205" Col="0" ValueType="60">Biloela</gnm:Cell>
+        <gnm:Cell Row="205" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="205" Col="2" ValueType="40">-24.399339999999999</gnm:Cell>
+        <gnm:Cell Row="205" Col="3" ValueType="40">150.50867</gnm:Cell>
+        <gnm:Cell Row="205" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="206" Col="0" ValueType="60">Moura</gnm:Cell>
+        <gnm:Cell Row="206" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="206" Col="2" ValueType="40">-24.562002100000001</gnm:Cell>
+        <gnm:Cell Row="206" Col="3" ValueType="40">149.98084689999999</gnm:Cell>
+        <gnm:Cell Row="206" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="207" Col="0" ValueType="60">Taroom</gnm:Cell>
+        <gnm:Cell Row="207" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="207" Col="2" ValueType="40">-25.63982</gnm:Cell>
+        <gnm:Cell Row="207" Col="3" ValueType="40">149.80063200000001</gnm:Cell>
+        <gnm:Cell Row="207" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="208" Col="0" ValueType="60">Theodore</gnm:Cell>
+        <gnm:Cell Row="208" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="208" Col="2" ValueType="40">-24.9541687</gnm:Cell>
+        <gnm:Cell Row="208" Col="3" ValueType="40">150.07443660000001</gnm:Cell>
+        <gnm:Cell Row="208" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="209" Col="0" ValueType="60">Wowan</gnm:Cell>
+        <gnm:Cell Row="209" Col="1" ValueType="60">Banana Shire Council</gnm:Cell>
+        <gnm:Cell Row="209" Col="2" ValueType="40">-23.909866000000001</gnm:Cell>
+        <gnm:Cell Row="209" Col="3" ValueType="40">150.196866</gnm:Cell>
+        <gnm:Cell Row="209" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="210" Col="0" ValueType="60">Babinda</gnm:Cell>
+        <gnm:Cell Row="210" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="210" Col="2" ValueType="40">-17.340326699999999</gnm:Cell>
+        <gnm:Cell Row="210" Col="3" ValueType="40">145.9265024</gnm:Cell>
+        <gnm:Cell Row="210" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="211" Col="0" ValueType="60">Gordonvale</gnm:Cell>
+        <gnm:Cell Row="211" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="211" Col="2" ValueType="40">-17.086707799999999</gnm:Cell>
+        <gnm:Cell Row="211" Col="3" ValueType="40">145.7883223</gnm:Cell>
+        <gnm:Cell Row="211" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="212" Col="0" ValueType="60">Holloways Beach</gnm:Cell>
+        <gnm:Cell Row="212" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="212" Col="2" ValueType="40">-16.842246299999999</gnm:Cell>
+        <gnm:Cell Row="212" Col="3" ValueType="40">145.7403741</gnm:Cell>
+        <gnm:Cell Row="212" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="213" Col="0" ValueType="60">Machans Beach</gnm:Cell>
+        <gnm:Cell Row="213" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="213" Col="2" ValueType="40">-16.853818</gnm:Cell>
+        <gnm:Cell Row="213" Col="3" ValueType="40">145.75137699999999</gnm:Cell>
+        <gnm:Cell Row="213" Col="4" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="214" Col="0" ValueType="60">Yorkeys Knob</gnm:Cell>
+        <gnm:Cell Row="214" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="214" Col="2" ValueType="40">-16.8091586</gnm:Cell>
+        <gnm:Cell Row="214" Col="3" ValueType="40">145.719089</gnm:Cell>
+        <gnm:Cell Row="214" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="215" Col="0" ValueType="60">Coen</gnm:Cell>
+        <gnm:Cell Row="215" Col="1" ValueType="60">Cook Shire Council</gnm:Cell>
+        <gnm:Cell Row="215" Col="2" ValueType="40">-13.947754700000001</gnm:Cell>
+        <gnm:Cell Row="215" Col="3" ValueType="40">143.1973587</gnm:Cell>
+        <gnm:Cell Row="215" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="216" Col="0" ValueType="60">Lakeland</gnm:Cell>
+        <gnm:Cell Row="216" Col="1" ValueType="60">Cook Shire Council</gnm:Cell>
+        <gnm:Cell Row="216" Col="2" ValueType="40">-15.865320000000001</gnm:Cell>
+        <gnm:Cell Row="216" Col="3" ValueType="40">144.85656599999999</gnm:Cell>
+        <gnm:Cell Row="216" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="217" Col="0" ValueType="60">Boigu Island</gnm:Cell>
+        <gnm:Cell Row="217" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="217" Col="2" ValueType="40">-9.2302</gnm:Cell>
+        <gnm:Cell Row="217" Col="3" ValueType="40">142.2209</gnm:Cell>
+        <gnm:Cell Row="217" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="218" Col="0" ValueType="60">Erub Island (Darnley</gnm:Cell>
+        <gnm:Cell Row="218" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="218" Col="2" ValueType="40">-9.5958570000000005</gnm:Cell>
+        <gnm:Cell Row="218" Col="3" ValueType="40">143.76006000000001</gnm:Cell>
+        <gnm:Cell Row="218" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="219" Col="0" ValueType="60">Kubin</gnm:Cell>
+        <gnm:Cell Row="219" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="219" Col="2" ValueType="40">-10.236458000000001</gnm:Cell>
+        <gnm:Cell Row="219" Col="3" ValueType="40">142.217364</gnm:Cell>
+        <gnm:Cell Row="219" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="220" Col="0" ValueType="60">Mabuiag Island</gnm:Cell>
+        <gnm:Cell Row="220" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="220" Col="2" ValueType="40">-9.9541000000000004</gnm:Cell>
+        <gnm:Cell Row="220" Col="3" ValueType="40">142.1918</gnm:Cell>
+        <gnm:Cell Row="220" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="221" Col="0" ValueType="60">Mer Island (Murray I</gnm:Cell>
+        <gnm:Cell Row="221" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="221" Col="2" ValueType="40">-9.9113012000000005</gnm:Cell>
+        <gnm:Cell Row="221" Col="3" ValueType="40">144.04708780000001</gnm:Cell>
+        <gnm:Cell Row="221" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="222" Col="0" ValueType="60">Masig Island (Yorke</gnm:Cell>
+        <gnm:Cell Row="222" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="222" Col="2" ValueType="40">-9.7507607000000007</gnm:Cell>
+        <gnm:Cell Row="222" Col="3" ValueType="40">143.41093670000001</gnm:Cell>
+        <gnm:Cell Row="222" Col="4" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="223" Col="0" ValueType="60">Innisfail</gnm:Cell>
+        <gnm:Cell Row="223" Col="1" ValueType="60">Cassowary Coast Regi</gnm:Cell>
+        <gnm:Cell Row="223" Col="2" ValueType="40">-17.5178501</gnm:Cell>
+        <gnm:Cell Row="223" Col="3" ValueType="40">146.03417039999999</gnm:Cell>
+        <gnm:Cell Row="223" Col="4" ValueType="40">33</gnm:Cell>
+        <gnm:Cell Row="224" Col="0" ValueType="60">Mission Beach</gnm:Cell>
+        <gnm:Cell Row="224" Col="1" ValueType="60">Cassowary Coast Regi</gnm:Cell>
+        <gnm:Cell Row="224" Col="2" ValueType="40">-17.904903699999998</gnm:Cell>
+        <gnm:Cell Row="224" Col="3" ValueType="40">146.09263780000001</gnm:Cell>
+        <gnm:Cell Row="224" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="225" Col="0" ValueType="60">Herberton</gnm:Cell>
+        <gnm:Cell Row="225" Col="1" ValueType="60">Tablelands Regional</gnm:Cell>
+        <gnm:Cell Row="225" Col="2" ValueType="40">-17.383142800000002</gnm:Cell>
+        <gnm:Cell Row="225" Col="3" ValueType="40">145.38469449999999</gnm:Cell>
+        <gnm:Cell Row="225" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="226" Col="0" ValueType="60">Ravenshoe</gnm:Cell>
+        <gnm:Cell Row="226" Col="1" ValueType="60">Tablelands Regional</gnm:Cell>
+        <gnm:Cell Row="226" Col="2" ValueType="40">-17.609303000000001</gnm:Cell>
+        <gnm:Cell Row="226" Col="3" ValueType="40">145.48711800000001</gnm:Cell>
+        <gnm:Cell Row="226" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="227" Col="0" ValueType="60">Kingaroy</gnm:Cell>
+        <gnm:Cell Row="227" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="227" Col="2" ValueType="40">-26.543835999999999</gnm:Cell>
+        <gnm:Cell Row="227" Col="3" ValueType="40">151.83679699999999</gnm:Cell>
+        <gnm:Cell Row="227" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="228" Col="0" ValueType="60">Nanango</gnm:Cell>
+        <gnm:Cell Row="228" Col="1" ValueType="60">South Burnett Region</gnm:Cell>
+        <gnm:Cell Row="228" Col="2" ValueType="40">-26.673100999999999</gnm:Cell>
+        <gnm:Cell Row="228" Col="3" ValueType="40">152.00472300000001</gnm:Cell>
+        <gnm:Cell Row="228" Col="4" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="229" Col="0" ValueType="60">Caloundra</gnm:Cell>
+        <gnm:Cell Row="229" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="229" Col="2" ValueType="40">-26.798770300000001</gnm:Cell>
+        <gnm:Cell Row="229" Col="3" ValueType="40">153.13113670000001</gnm:Cell>
+        <gnm:Cell Row="229" Col="4" ValueType="40">39</gnm:Cell>
+        <gnm:Cell Row="230" Col="0" ValueType="60">Glass House Mountain</gnm:Cell>
+        <gnm:Cell Row="230" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="230" Col="2" ValueType="40">-26.855432700000001</gnm:Cell>
+        <gnm:Cell Row="230" Col="3" ValueType="40">152.95860959999999</gnm:Cell>
+        <gnm:Cell Row="230" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="231" Col="0" ValueType="60">Kawana</gnm:Cell>
+        <gnm:Cell Row="231" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="231" Col="2" ValueType="40">-26.7288</gnm:Cell>
+        <gnm:Cell Row="231" Col="3" ValueType="40">153.1259</gnm:Cell>
+        <gnm:Cell Row="231" Col="4" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="232" Col="0" ValueType="60">Maleny</gnm:Cell>
+        <gnm:Cell Row="232" Col="1" ValueType="60">Sunshine Coast Regio</gnm:Cell>
+        <gnm:Cell Row="232" Col="2" ValueType="40">-26.762512999999998</gnm:Cell>
+        <gnm:Cell Row="232" Col="3" ValueType="40">152.84714600000001</gnm:Cell>
+        <gnm:Cell Row="232" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="233" Col="0" ValueType="60">Childers</gnm:Cell>
+        <gnm:Cell Row="233" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="233" Col="2" ValueType="40">-25.234994400000001</gnm:Cell>
+        <gnm:Cell Row="233" Col="3" ValueType="40">152.2777586</gnm:Cell>
+        <gnm:Cell Row="233" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="234" Col="0" ValueType="60">Woodgate</gnm:Cell>
+        <gnm:Cell Row="234" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="234" Col="2" ValueType="40">-25.115078</gnm:Cell>
+        <gnm:Cell Row="234" Col="3" ValueType="40">152.56771800000001</gnm:Cell>
+        <gnm:Cell Row="234" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="235" Col="0" ValueType="60">Agnes Water/1770</gnm:Cell>
+        <gnm:Cell Row="235" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="235" Col="2" ValueType="40">-24.182892500000001</gnm:Cell>
+        <gnm:Cell Row="235" Col="3" ValueType="40">151.88320659999999</gnm:Cell>
+        <gnm:Cell Row="235" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="236" Col="0" ValueType="60">Baffle</gnm:Cell>
+        <gnm:Cell Row="236" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="236" Col="2" ValueType="40">-24.497297199999998</gnm:Cell>
+        <gnm:Cell Row="236" Col="3" ValueType="40">151.9278348</gnm:Cell>
+        <gnm:Cell Row="236" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="237" Col="0" ValueType="60">Calliope</gnm:Cell>
+        <gnm:Cell Row="237" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="237" Col="2" ValueType="40">-24.005317699999999</gnm:Cell>
+        <gnm:Cell Row="237" Col="3" ValueType="40">151.20051889999999</gnm:Cell>
+        <gnm:Cell Row="237" Col="4" ValueType="40">49</gnm:Cell>
+        <gnm:Cell Row="238" Col="0" ValueType="60">Gladstone</gnm:Cell>
+        <gnm:Cell Row="238" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="238" Col="2" ValueType="40">-23.873100000000001</gnm:Cell>
+        <gnm:Cell Row="238" Col="3" ValueType="40">151.262</gnm:Cell>
+        <gnm:Cell Row="238" Col="4" ValueType="40">49</gnm:Cell>
+        <gnm:Cell Row="239" Col="0" ValueType="60">Miriam Vale</gnm:Cell>
+        <gnm:Cell Row="239" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="239" Col="2" ValueType="40">-24.3266673</gnm:Cell>
+        <gnm:Cell Row="239" Col="3" ValueType="40">151.55845919999999</gnm:Cell>
+        <gnm:Cell Row="239" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="240" Col="0" ValueType="60">Mount Larcom</gnm:Cell>
+        <gnm:Cell Row="240" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="240" Col="2" ValueType="40">-23.807159500000001</gnm:Cell>
+        <gnm:Cell Row="240" Col="3" ValueType="40">150.98321060000001</gnm:Cell>
+        <gnm:Cell Row="240" Col="4" ValueType="40">27</gnm:Cell>
+        <gnm:Cell Row="241" Col="0" ValueType="60">Rosedale</gnm:Cell>
+        <gnm:Cell Row="241" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="241" Col="2" ValueType="40">-24.632036100000001</gnm:Cell>
+        <gnm:Cell Row="241" Col="3" ValueType="40">151.91359439999999</gnm:Cell>
+        <gnm:Cell Row="241" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="242" Col="0" ValueType="60">Tannum Sands/Boyne I</gnm:Cell>
+        <gnm:Cell Row="242" Col="1" ValueType="60">Gladstone Regional C</gnm:Cell>
+        <gnm:Cell Row="242" Col="2" ValueType="40">-23.9602784</gnm:Cell>
+        <gnm:Cell Row="242" Col="3" ValueType="40">151.36818439999999</gnm:Cell>
+        <gnm:Cell Row="242" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="243" Col="0" ValueType="60">Southern Moreton Bay</gnm:Cell>
+        <gnm:Cell Row="243" Col="1" ValueType="60">Redland Shire Counci</gnm:Cell>
+        <gnm:Cell Row="243" Col="2" ValueType="40">-27.628666299999999</gnm:Cell>
+        <gnm:Cell Row="243" Col="3" ValueType="40">153.36326159999999</gnm:Cell>
+        <gnm:Cell Row="243" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="244" Col="0" ValueType="60">Redland Bay</gnm:Cell>
+        <gnm:Cell Row="244" Col="1" ValueType="60">Redland Shire Counci</gnm:Cell>
+        <gnm:Cell Row="244" Col="2" ValueType="40">-27.619199999999999</gnm:Cell>
+        <gnm:Cell Row="244" Col="3" ValueType="40">153.30959999999999</gnm:Cell>
+        <gnm:Cell Row="244" Col="4" ValueType="40">48</gnm:Cell>
+        <gnm:Cell Row="245" Col="0" ValueType="60">Buchan Point</gnm:Cell>
+        <gnm:Cell Row="245" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="245" Col="2" ValueType="40">-16.739498900000001</gnm:Cell>
+        <gnm:Cell Row="245" Col="3" ValueType="40">145.66292849999999</gnm:Cell>
+        <gnm:Cell Row="245" Col="4" ValueType="40">26</gnm:Cell>
+        <gnm:Cell Row="246" Col="0" ValueType="60">Cairns</gnm:Cell>
+        <gnm:Cell Row="246" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="246" Col="2" ValueType="40">-16.910572999999999</gnm:Cell>
+        <gnm:Cell Row="246" Col="3" ValueType="40">145.75063170000001</gnm:Cell>
+        <gnm:Cell Row="246" Col="4" ValueType="40">74</gnm:Cell>
+        <gnm:Cell Row="247" Col="0" ValueType="60">Edmonton</gnm:Cell>
+        <gnm:Cell Row="247" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="247" Col="2" ValueType="40">-17.02168</gnm:Cell>
+        <gnm:Cell Row="247" Col="3" ValueType="40">145.72361000000001</gnm:Cell>
+        <gnm:Cell Row="247" Col="4" ValueType="40">28</gnm:Cell>
+        <gnm:Cell Row="248" Col="0" ValueType="60">Trinity Beach</gnm:Cell>
+        <gnm:Cell Row="248" Col="1" ValueType="60">Cairns Regional Coun</gnm:Cell>
+        <gnm:Cell Row="248" Col="2" ValueType="40">-16.790067400000002</gnm:Cell>
+        <gnm:Cell Row="248" Col="3" ValueType="40">145.6870313</gnm:Cell>
+        <gnm:Cell Row="248" Col="4" ValueType="40">34</gnm:Cell>
+        <gnm:Cell Row="249" Col="0" ValueType="60">Badu Island</gnm:Cell>
+        <gnm:Cell Row="249" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="249" Col="2" ValueType="40">-10.164139</gnm:Cell>
+        <gnm:Cell Row="249" Col="3" ValueType="40">142.16633300000001</gnm:Cell>
+        <gnm:Cell Row="249" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="250" Col="0" ValueType="60">Poruma Island (Cocon</gnm:Cell>
+        <gnm:Cell Row="250" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="250" Col="2" ValueType="40">-10.0500109</gnm:Cell>
+        <gnm:Cell Row="250" Col="3" ValueType="40">143.06426920000001</gnm:Cell>
+        <gnm:Cell Row="250" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="251" Col="0" ValueType="60">Dauan Island</gnm:Cell>
+        <gnm:Cell Row="251" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="251" Col="2" ValueType="40">-9.4131250000000009</gnm:Cell>
+        <gnm:Cell Row="251" Col="3" ValueType="40">142.53392500000001</gnm:Cell>
+        <gnm:Cell Row="251" Col="4" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="252" Col="0" ValueType="60">Kirri Island (Hammon</gnm:Cell>
+        <gnm:Cell Row="252" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="252" Col="2" ValueType="40">-10.554600000000001</gnm:Cell>
+        <gnm:Cell Row="252" Col="3" ValueType="40">142.21889999999999</gnm:Cell>
+        <gnm:Cell Row="252" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="253" Col="0" ValueType="60">Saibai Island</gnm:Cell>
+        <gnm:Cell Row="253" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="253" Col="2" ValueType="40">-9.3786570000000005</gnm:Cell>
+        <gnm:Cell Row="253" Col="3" ValueType="40">142.62319099999999</gnm:Cell>
+        <gnm:Cell Row="253" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="254" Col="0" ValueType="60">Sue Island (Warraber</gnm:Cell>
+        <gnm:Cell Row="254" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="254" Col="2" ValueType="40">-10.2074</gnm:Cell>
+        <gnm:Cell Row="254" Col="3" ValueType="40">142.82660000000001</gnm:Cell>
+        <gnm:Cell Row="254" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="255" Col="0" ValueType="60">Iama Island (Yam Isl</gnm:Cell>
+        <gnm:Cell Row="255" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="255" Col="2" ValueType="40">-9.8988925000000005</gnm:Cell>
+        <gnm:Cell Row="255" Col="3" ValueType="40">142.7711008</gnm:Cell>
+        <gnm:Cell Row="255" Col="4" ValueType="40">22</gnm:Cell>
+        <gnm:Cell Row="256" Col="0" ValueType="60">Tambo (ESU)</gnm:Cell>
+        <gnm:Cell Row="256" Col="1" ValueType="60">Blackall-Tambo Regio</gnm:Cell>
+        <gnm:Cell Row="256" Col="2" ValueType="40">-24.883299999999998</gnm:Cell>
+        <gnm:Cell Row="256" Col="3" ValueType="40">146.25</gnm:Cell>
+        <gnm:Cell Row="256" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="257" Col="0" ValueType="60">Boreen Point</gnm:Cell>
+        <gnm:Cell Row="257" Col="1" ValueType="60">Noosa Shire Council</gnm:Cell>
+        <gnm:Cell Row="257" Col="2" ValueType="40">-26.286511600000001</gnm:Cell>
+        <gnm:Cell Row="257" Col="3" ValueType="40">152.99505719999999</gnm:Cell>
+        <gnm:Cell Row="257" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="258" Col="0" ValueType="60">Emu Park</gnm:Cell>
+        <gnm:Cell Row="258" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="258" Col="2" ValueType="40">-23.2561</gnm:Cell>
+        <gnm:Cell Row="258" Col="3" ValueType="40">150.8245</gnm:Cell>
+        <gnm:Cell Row="258" Col="4" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="259" Col="0" ValueType="60">Stanage Bay</gnm:Cell>
+        <gnm:Cell Row="259" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="259" Col="2" ValueType="40">-22.136600000000001</gnm:Cell>
+        <gnm:Cell Row="259" Col="3" ValueType="40">150.04560000000001</gnm:Cell>
+        <gnm:Cell Row="259" Col="4" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="260" Col="0" ValueType="60">Yaamba</gnm:Cell>
+        <gnm:Cell Row="260" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="260" Col="2" ValueType="40">-23.1356</gnm:Cell>
+        <gnm:Cell Row="260" Col="3" ValueType="40">150.3672</gnm:Cell>
+        <gnm:Cell Row="260" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="261" Col="0" ValueType="60">Alexandra Bay</gnm:Cell>
+        <gnm:Cell Row="261" Col="1" ValueType="60">Douglas Shire Counci</gnm:Cell>
+        <gnm:Cell Row="261" Col="2" ValueType="40">-16.202499599999999</gnm:Cell>
+        <gnm:Cell Row="261" Col="3" ValueType="40">145.4035471</gnm:Cell>
+        <gnm:Cell Row="261" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="262" Col="0" ValueType="60">Mossman</gnm:Cell>
+        <gnm:Cell Row="262" Col="1" ValueType="60">Douglas Shire Counci</gnm:Cell>
+        <gnm:Cell Row="262" Col="2" ValueType="40">-16.465294199999999</gnm:Cell>
+        <gnm:Cell Row="262" Col="3" ValueType="40">145.37474420000001</gnm:Cell>
+        <gnm:Cell Row="262" Col="4" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="263" Col="0" ValueType="60">Boonooroo (Great San</gnm:Cell>
+        <gnm:Cell Row="263" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="263" Col="2" ValueType="40">-25.672514</gnm:Cell>
+        <gnm:Cell Row="263" Col="3" ValueType="40">152.8879158</gnm:Cell>
+        <gnm:Cell Row="263" Col="4" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="264" Col="0" ValueType="60">Tiaro</gnm:Cell>
+        <gnm:Cell Row="264" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="264" Col="2" ValueType="40">-25.7322758</gnm:Cell>
+        <gnm:Cell Row="264" Col="3" ValueType="40">152.58363929999999</gnm:Cell>
+        <gnm:Cell Row="264" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="265" Col="0" ValueType="60">Eidsvold</gnm:Cell>
+        <gnm:Cell Row="265" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="265" Col="2" ValueType="40">-25.371478799999998</gnm:Cell>
+        <gnm:Cell Row="265" Col="3" ValueType="40">151.11735239999999</gnm:Cell>
+        <gnm:Cell Row="265" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="266" Col="0" ValueType="60">Jimboomba</gnm:Cell>
+        <gnm:Cell Row="266" Col="1" ValueType="60">Logan City Council</gnm:Cell>
+        <gnm:Cell Row="266" Col="2" ValueType="40">-27.824757000000002</gnm:Cell>
+        <gnm:Cell Row="266" Col="3" ValueType="40">153.022514</gnm:Cell>
+        <gnm:Cell Row="266" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="267" Col="0" ValueType="60">Chillagoe</gnm:Cell>
+        <gnm:Cell Row="267" Col="1" ValueType="60">Mareeba Shire Counci</gnm:Cell>
+        <gnm:Cell Row="267" Col="2" ValueType="40">-17.154326099999999</gnm:Cell>
+        <gnm:Cell Row="267" Col="3" ValueType="40">144.5206791</gnm:Cell>
+        <gnm:Cell Row="267" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="268" Col="0" ValueType="60">Pomona</gnm:Cell>
+        <gnm:Cell Row="268" Col="1" ValueType="60">Noosa Shire Council</gnm:Cell>
+        <gnm:Cell Row="268" Col="2" ValueType="40">-26.366668000000001</gnm:Cell>
+        <gnm:Cell Row="268" Col="3" ValueType="40">152.85344799999999</gnm:Cell>
+        <gnm:Cell Row="268" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="269" Col="0" ValueType="60">Tewantin</gnm:Cell>
+        <gnm:Cell Row="269" Col="1" ValueType="60">Noosa Shire Council</gnm:Cell>
+        <gnm:Cell Row="269" Col="2" ValueType="40">-26.383050999999998</gnm:Cell>
+        <gnm:Cell Row="269" Col="3" ValueType="40">153.029661</gnm:Cell>
+        <gnm:Cell Row="269" Col="4" ValueType="40">30</gnm:Cell>
+        <gnm:Cell Row="270" Col="0" ValueType="60">Great Keppel Island</gnm:Cell>
+        <gnm:Cell Row="270" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="270" Col="2" ValueType="40">-23.180747</gnm:Cell>
+        <gnm:Cell Row="270" Col="3" ValueType="40">150.93710050000001</gnm:Cell>
+        <gnm:Cell Row="270" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="271" Col="0" ValueType="60">Yeppoon</gnm:Cell>
+        <gnm:Cell Row="271" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="271" Col="2" ValueType="40">-23.140999999999998</gnm:Cell>
+        <gnm:Cell Row="271" Col="3" ValueType="40">150.7364</gnm:Cell>
+        <gnm:Cell Row="271" Col="4" ValueType="40">45</gnm:Cell>
+        <gnm:Cell Row="272" Col="0" ValueType="60">Cooroy</gnm:Cell>
+        <gnm:Cell Row="272" Col="1" ValueType="60">Noosa Shire Council</gnm:Cell>
+        <gnm:Cell Row="272" Col="2" ValueType="40">-26.4169205</gnm:Cell>
+        <gnm:Cell Row="272" Col="3" ValueType="40">152.9079782</gnm:Cell>
+        <gnm:Cell Row="272" Col="4" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="273" Col="0" ValueType="60">Yarrabah</gnm:Cell>
+        <gnm:Cell Row="273" Col="1" ValueType="60">Yarrabah Aboriginal</gnm:Cell>
+        <gnm:Cell Row="273" Col="2" ValueType="40">-16.909286300000002</gnm:Cell>
+        <gnm:Cell Row="273" Col="3" ValueType="40">145.87695310000001</gnm:Cell>
+        <gnm:Cell Row="273" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="274" Col="0" ValueType="60">Gin Gin</gnm:Cell>
+        <gnm:Cell Row="274" Col="1" ValueType="60">Bundaberg Regional C</gnm:Cell>
+        <gnm:Cell Row="274" Col="2" ValueType="40">-24.989798799999999</gnm:Cell>
+        <gnm:Cell Row="274" Col="3" ValueType="40">151.95276939999999</gnm:Cell>
+        <gnm:Cell Row="274" Col="4" ValueType="40">27</gnm:Cell>
+        <gnm:Cell Row="275" Col="0" ValueType="60">Hervey Bay</gnm:Cell>
+        <gnm:Cell Row="275" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="275" Col="2" ValueType="40">-25.2837912</gnm:Cell>
+        <gnm:Cell Row="275" Col="3" ValueType="40">152.8303501</gnm:Cell>
+        <gnm:Cell Row="275" Col="4" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="276" Col="0" ValueType="60">Howard</gnm:Cell>
+        <gnm:Cell Row="276" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="276" Col="2" ValueType="40">-25.321005599999999</gnm:Cell>
+        <gnm:Cell Row="276" Col="3" ValueType="40">152.5667741</gnm:Cell>
+        <gnm:Cell Row="276" Col="4" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="277" Col="0" ValueType="60">Gayndah</gnm:Cell>
+        <gnm:Cell Row="277" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="277" Col="2" ValueType="40">-25.6259263</gnm:Cell>
+        <gnm:Cell Row="277" Col="3" ValueType="40">151.60927359999999</gnm:Cell>
+        <gnm:Cell Row="277" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="278" Col="0" ValueType="60">Monto</gnm:Cell>
+        <gnm:Cell Row="278" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="278" Col="2" ValueType="40">-24.8703936</gnm:Cell>
+        <gnm:Cell Row="278" Col="3" ValueType="40">151.12568769999999</gnm:Cell>
+        <gnm:Cell Row="278" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="279" Col="0" ValueType="60">Mundubbera</gnm:Cell>
+        <gnm:Cell Row="279" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="279" Col="2" ValueType="40">-25.5818923</gnm:Cell>
+        <gnm:Cell Row="279" Col="3" ValueType="40">151.2995718</gnm:Cell>
+        <gnm:Cell Row="279" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="280" Col="0" ValueType="60">Woodford</gnm:Cell>
+        <gnm:Cell Row="280" Col="1" ValueType="60">Moreton Bay Regional</gnm:Cell>
+        <gnm:Cell Row="280" Col="2" ValueType="40">-26.942299999999999</gnm:Cell>
+        <gnm:Cell Row="280" Col="3" ValueType="40">152.761</gnm:Cell>
+        <gnm:Cell Row="280" Col="4" ValueType="40">24</gnm:Cell>
+        <gnm:Cell Row="281" Col="0" ValueType="60">Cooktown</gnm:Cell>
+        <gnm:Cell Row="281" Col="1" ValueType="60">Cook Shire Council</gnm:Cell>
+        <gnm:Cell Row="281" Col="2" ValueType="40">-15.4626669</gnm:Cell>
+        <gnm:Cell Row="281" Col="3" ValueType="40">145.25053550000001</gnm:Cell>
+        <gnm:Cell Row="281" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="282" Col="0" ValueType="60">St Pauls</gnm:Cell>
+        <gnm:Cell Row="282" Col="1" ValueType="60">Torres Strait Island</gnm:Cell>
+        <gnm:Cell Row="282" Col="2" ValueType="40">-10.1854566</gnm:Cell>
+        <gnm:Cell Row="282" Col="3" ValueType="40">142.33170150000001</gnm:Cell>
+        <gnm:Cell Row="282" Col="4" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="283" Col="0" ValueType="60">Redlands Operations</gnm:Cell>
+        <gnm:Cell Row="283" Col="1" ValueType="60">Redland Shire Counci</gnm:Cell>
+        <gnm:Cell Row="283" Col="2" ValueType="40">-27.528500000000001</gnm:Cell>
+        <gnm:Cell Row="283" Col="3" ValueType="40">153.2551</gnm:Cell>
+        <gnm:Cell Row="283" Col="4" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="284" Col="0" ValueType="60">Bamaga (Northern Pen</gnm:Cell>
+        <gnm:Cell Row="284" Col="1" ValueType="60">Northern Peninsula A</gnm:Cell>
+        <gnm:Cell Row="284" Col="2" ValueType="40">-10.852577</gnm:Cell>
+        <gnm:Cell Row="284" Col="3" ValueType="40">142.366535</gnm:Cell>
+        <gnm:Cell Row="284" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="285" Col="0" ValueType="60">Burrum Heads</gnm:Cell>
+        <gnm:Cell Row="285" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="285" Col="2" ValueType="40">-25.203900000000001</gnm:Cell>
+        <gnm:Cell Row="285" Col="3" ValueType="40">152.61060000000001</gnm:Cell>
+        <gnm:Cell Row="285" Col="4" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="286" Col="0" ValueType="60">Maryborough</gnm:Cell>
+        <gnm:Cell Row="286" Col="1" ValueType="60">Fraser Coast Regiona</gnm:Cell>
+        <gnm:Cell Row="286" Col="2" ValueType="40">-25.5200666</gnm:Cell>
+        <gnm:Cell Row="286" Col="3" ValueType="40">152.68837579999999</gnm:Cell>
+        <gnm:Cell Row="286" Col="4" ValueType="40">32</gnm:Cell>
+        <gnm:Cell Row="287" Col="0" ValueType="60">Mount Perry</gnm:Cell>
+        <gnm:Cell Row="287" Col="1" ValueType="60">North Burnett Region</gnm:Cell>
+        <gnm:Cell Row="287" Col="2" ValueType="40">-25.176635000000001</gnm:Cell>
+        <gnm:Cell Row="287" Col="3" ValueType="40">151.64144590000001</gnm:Cell>
+        <gnm:Cell Row="287" Col="4" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="288" Col="0" ValueType="60">Tully</gnm:Cell>
+        <gnm:Cell Row="288" Col="1" ValueType="60">Cassowary Coast Regi</gnm:Cell>
+        <gnm:Cell Row="288" Col="2" ValueType="40">-17.933202300000001</gnm:Cell>
+        <gnm:Cell Row="288" Col="3" ValueType="40">145.92838879999999</gnm:Cell>
+        <gnm:Cell Row="288" Col="4" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="289" Col="0" ValueType="60">Kuranda</gnm:Cell>
+        <gnm:Cell Row="289" Col="1" ValueType="60">Mareeba Shire Counci</gnm:Cell>
+        <gnm:Cell Row="289" Col="2" ValueType="40">-16.833763000000001</gnm:Cell>
+        <gnm:Cell Row="289" Col="3" ValueType="40">145.6224679</gnm:Cell>
+        <gnm:Cell Row="289" Col="4" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="290" Col="0" ValueType="60">Mareeba</gnm:Cell>
+        <gnm:Cell Row="290" Col="1" ValueType="60">Mareeba Shire Counci</gnm:Cell>
+        <gnm:Cell Row="290" Col="2" ValueType="40">-16.996221999999999</gnm:Cell>
+        <gnm:Cell Row="290" Col="3" ValueType="40">145.42101260000001</gnm:Cell>
+        <gnm:Cell Row="290" Col="4" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="291" Col="0" ValueType="60">Keppel Sands</gnm:Cell>
+        <gnm:Cell Row="291" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="291" Col="2" ValueType="40">-23.324100000000001</gnm:Cell>
+        <gnm:Cell Row="291" Col="3" ValueType="40">150.791</gnm:Cell>
+        <gnm:Cell Row="291" Col="4" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="292" Col="0" ValueType="60">Marlborough</gnm:Cell>
+        <gnm:Cell Row="292" Col="1" ValueType="60">Livingstone Shire Co</gnm:Cell>
+        <gnm:Cell Row="292" Col="2" ValueType="40">-22.814</gnm:Cell>
+        <gnm:Cell Row="292" Col="3" ValueType="40">149.89179999999999</gnm:Cell>
+        <gnm:Cell Row="292" Col="4" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="293" Col="0" ValueType="60">Rolleston (ESU)</gnm:Cell>
+        <gnm:Cell Row="293" Col="1" ValueType="60">Central Highlands Re</gnm:Cell>
+        <gnm:Cell Row="293" Col="2" ValueType="40">-24.461222200000002</gnm:Cell>
+        <gnm:Cell Row="293" Col="3" ValueType="40">148.62282329999999</gnm:Cell>
+        <gnm:Cell Row="293" Col="4" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="294" Col="0" ValueType="60">Toowoomba Region Ope</gnm:Cell>
+        <gnm:Cell Row="294" Col="1" ValueType="60">Toowoomba Regional C</gnm:Cell>
+        <gnm:Cell Row="294" Col="2" ValueType="40">-27.562905000000001</gnm:Cell>
+        <gnm:Cell Row="294" Col="3" ValueType="40">151.95678799999999</gnm:Cell>
+        <gnm:Cell Row="294" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="295" Col="0" ValueType="60">St George</gnm:Cell>
+        <gnm:Cell Row="295" Col="1" ValueType="60">Balonne Shire Counci</gnm:Cell>
+        <gnm:Cell Row="295" Col="2" ValueType="40">-28.041699999999999</gnm:Cell>
+        <gnm:Cell Row="295" Col="3" ValueType="40">148.58160000000001</gnm:Cell>
+        <gnm:Cell Row="295" Col="4" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="296" Col="0" ValueType="60">Thallon</gnm:Cell>
+        <gnm:Cell Row="296" Col="1" ValueType="60">Balonne Shire Counci</gnm:Cell>
+        <gnm:Cell Row="296" Col="2" ValueType="40">-28.636199999999999</gnm:Cell>
+        <gnm:Cell Row="296" Col="3" ValueType="40">148.8683</gnm:Cell>
+        <gnm:Cell Row="296" Col="4" ValueType="40">3</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>
